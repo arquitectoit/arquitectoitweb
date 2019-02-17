@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Contenedores IBM
+title: ¿Qué es un contenedor?
 excerpt: "bla bla bla"
 categories: docker
-tags: [namespaces]
+tags: [contenedor,cgroups,namespaces,linux]
 image:
   feature: covers/container.jpg
   credit: Guillaume Bolduc
@@ -13,24 +13,62 @@ share: true
 author: victor_cuervo
 ---
 
-1. qué es un contenedor
-2. diferencia entre un contenedor y una vm
-3. historia de los contenedores
-4. qué es docker
+Una de las mayores apuestas tecnológicas de los últimos años y a la sazón una de las más reclamadas en cuanto dentro del perfil tecnológico es el uso de los **contenedores**.
 
-## ¿Qué es un contenedor?
-Lo primero
+Pero ¿qué es un contenedor?¿es una tecnología nueva?¿por qué se han convertido el algo primordial en el desarrollo del software?¿realmente es tan útil como lo describen?
+
+Bien, vayamos paso a paso explicando **¿qué es un contenedor?**.
+
+## 1. ¿Qué es un contenedor?
+
+Podríamos definir un **contenedor** como *un paquete ligero, autónomo y ejecutable de una pieza de software, el cual incluye todo lo necesario para ser ejecutado: código, runtime, herramientas y librerías del sistema, así como sus configuraciones*.
+
+La idea es que, al ser autocontenido, el software se comporta siempre de la misma forma, independientemente del entorno en el que lo ejecutemos. El software se aisla del entorno y de las diferencias que los entornos puedan tener en sus diferentes estadios: desarrollo, preproducción y producción, así como de las diferentes configuraciones que estos entornos puedan tener entre sí.
 
 
+Un **contenedor** es un proceso que se ejecuta de forma aislada, al cual se le dota de las capacidades de ejecución básicas de un runtime. Estas capacidades nos permiten instanciar servicios y aplicaciones sobre el contenedor.
 
-* [namespaces](https://lwn.net/Articles/528078/)
-* [control groups (cgroups)](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch01)
+Esta configuración hace que los **contenedores** que sean muy ligeros y rapidos de arrancar a diferencia de otros modelos como podría ser las **máquinas virtuales**.
 
+![Qué es un contenedor]({{ site.url }}/images/dockers/que-es-contenedor.png){: .align-center}
+
+Existen **contendores** tanto para sistemas Linux como para sistemas Windows, por lo cual se puede construir casi cualquier tipo de aplicación utilizando tecnología de contenendores.
+
+## Contenedores Linux
+
+Los contenedores aparecen en el mundo *Linux* por el año 2001 mediante el *proyecto VServer*.
+
+La idea del contenedor *Linux* se apoya en dos de sus tecnologías, por un lado en los [control groups o cgroups][cgroups], que son una función del kernel que controla y limita el uso de recursos para un proceso o grupo de subprocesos.
+
+[Control groups][cgroups] utiliza **systemd** que proporciona un sistema y un gestor de servicios para poder gestionar procesos de forma aislada.
+
+Por otro los [namespaces][namespaces] permiten virtualizar el kernel de Linux, desde los que son los identificadores de proceso hasta las funciones de red.
+
+Así los [namespaces][namespaces] nos ofrecen los siguientes espacios de nombre de forma virtualizada:
+
+* **mnt**, para montar y desmontar directorios.
+* **net**, el contenedor dispone de su propio stack de red.
+* **ipc**, mecanismos de comunicación entre procesos, por ejemplo colas de mensajes.
+* **user**, su propia vista de usuarios y grupos de usuarios del sistema.
+* **utc**, para tener un hostname y domain por contenedor.
+
+Esta virtualización es la que nos permite ejecutar varios **contenedores** sobre el mismo sistema.
+
+
+## 2. Beneficios (o característias) de los contenedores --> Podría ser otro art?
+contenedor -> problemas de entorno
+contenedor -> devops
+seguridad
+
+
+## 3. Diferencias contenedores, vm
+
+## 3. Historia de los contenedores
 
 ## cgroups
-Los grupos de control o **cgroups** son una función del kernel que controla y limita el uso de recursos para un proceso o grupo de subprocesos.
+Los grupos de control o **cgroups** .
 
-**cgroups** utiliza **systemd** que proporciona un sistema y un gestor de servicios para poder gestionar procesos de forma aislada.
+
 
 
 
@@ -39,33 +77,10 @@ Los grupos de control o **cgroups** son una función del kernel que controla y l
 * Cada contenedor tiene su conjunto de **namespaces**. Los **namespaces** que offece un contenedor de forma aislada son:
 
 
-  * pid - procesos
-  * user - usuarios y grupos
-  * uts - hostname y domainname
-  * ns - mont points
-  * net - dispositivos de red, puertos,...
-  * ipc - comunicaciones entre procesos
 
 
 
-  MNT: Mount and unmount directories without affecting other namespaces.
-  NET: Containers have their own network stack.
-  IPC: Isolated interprocess communication mechanisms such as message queues.
-  User: Isolated view of users on the system.
-  UTC: Set hostname and domain name per container.
-
-
-
- * **mnt**, para montar y desmontar directorios.
- * **net**, el contenedor dispone de su propio stack de red.
- * **ipc**, mecanismos de comunicación entre procesos, por ejemplo colas de mensajes.
- * **user**, su propia vista de usuarios y grupos de usuarios del sistema.
- * **utc**, para tener un hostname y domain por contenedor.
-
- Al tener aislamiento en estos namespaces hace que se pueda estar ejecutando varios cotenedores en el mismo sistema.
-
-
-Los contneedores ofrecen namesapces y control groups:
+Los contenedores ofrecen namesapces y control groups:
 
 * cgroups (control groups), control de grupos y monitorización
 
@@ -188,3 +203,9 @@ Are you sure you want to continue? [y/N]
 ~~
 
 ## Docker MongoDB
+
+
+
+[cgroups]: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch01
+
+[namespaces]: https://lwn.net/Articles/528078/
