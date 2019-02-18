@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Contenedores versus Máquinas Virtuales
-excerpt: "bla bla bla"
+excerpt: "¿Son lo mismo un contenedor y una máquina virtual? Veamos las diferencias y utilidades de los contenedores versus máquinas virtuales."
 categories: docker
 tags: [contenedor,máquina virtual, hipervisor]
 image:
