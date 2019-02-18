@@ -2,7 +2,7 @@
 layout: post
 title: Arquitectura Contenedores de IBM
 excerpt: "bla bla bla"
-categories: cloud
+categories: docker
 tags: [serverless]
 image:
   feature: covers/dialogflow.jpg

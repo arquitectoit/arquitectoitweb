@@ -1,12 +1,15 @@
 ---
 layout: post
-title: ¿Qué es una imagen Docker?
+title: Arquitectura Docker
 excerpt: "bla bla bla"
 categories: docker
-tags: [imagen]
+tags: [arquitectura]
 image:
-  feature: covers/dialogflow.jpg
+  feature: covers/container.jpg
 comments: true
 share: true
 author: victor_cuervo
 ---
+
+
+* Piezas de la arquitectura Docker

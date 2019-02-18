@@ -19,7 +19,7 @@ author: victor_cuervo
 4. qué es docker
 
 ## ¿Qué es un contenedor?
-Lo primero
+Lo primero es conocer
 
 
 

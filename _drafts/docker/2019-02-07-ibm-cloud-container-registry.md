@@ -2,8 +2,8 @@
 layout: post
 title: IBM Cloud Container Registry
 excerpt: "bla bla bla"
-categories: cloud
-tags: [contenedores]
+categories: docker
+tags: [contenedores,ibm]
 image:
   feature: covers/default.jpg
 comments: true

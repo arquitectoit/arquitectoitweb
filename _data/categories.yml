@@ -69,3 +69,8 @@
   name: DocumentDB
   image: covers/documentdb.jpg
   description: "DocumentDB nos ofrece una alternativa a MongoDB para disponer de un cluster totalmente gestionado por AWS."
+
+- title: docker
+  name: Docker
+  image: covers/container.jpg
+  description: "Los contenedores son paquetes ligeros, autónomos y ejecutables que incluyen lo necesario para ser ejecutados independientemente."
