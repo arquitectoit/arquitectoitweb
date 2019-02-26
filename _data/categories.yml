@@ -74,3 +74,8 @@
   name: Docker
   image: covers/container.jpg
   description: "Los contenedores son paquetes ligeros, autónomos y ejecutables que incluyen lo necesario para ser ejecutados independientemente."
+
+- title: elasticsearch
+  name: Elasticsearch
+  image: covers/search.jpg
+  description: "Artículos sobre Elasticsearch, una base de datos NoSQL orientada a documentos JSON y a la búsqueda de textos."
