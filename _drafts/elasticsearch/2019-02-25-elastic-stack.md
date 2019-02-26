@@ -15,3 +15,9 @@ author: victor_cuervo
 https://www.elastic.co/products/stack
 
 ¿Lo que era el XPack?
+
+## Ecosistema ELK
+
+**Elasticsearch** conjuntamente al recolector de datos **Logstash** y la herramienta de visualización de datos **Kibana** conforman lo que se conoce como la suite **ELK**.
+
+Es lo que se conoce como ELS Stack??
