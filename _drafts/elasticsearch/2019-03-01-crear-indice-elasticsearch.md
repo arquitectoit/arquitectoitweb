@@ -14,6 +14,12 @@ author: victor_cuervo
 ---
 
 
+Lo primero que haremos cuando estemos trabajando con [Elasticsearch][Elasticsearch]
+
+
+
+
+
 
 
 ## Insertar un documento en Elasticsearch
@@ -28,3 +34,6 @@ PUT twitter/_doc/1
 ~~~
 
 Lo que estamos haciendo es insertar en el **índice** "twitter", de un **tipo** "doc" y con un **identificador** "1".
+
+
+[Elasticsearch]: {{site.url}}/elasticsearch/que-es-elasticsearch/
