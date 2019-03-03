@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Tests en Postman
-excerpt: "bla bla"
+excerpt: "Cómo utilizar la herramienta Postman para poder definir y compartir los tests unitarios sobre un API o Servicio."
 categories: postman
-tags: [sanbox]
+tags: [tests,node.js]
 image:
   feature: covers/postman.jpg
   credit: Marius Christensen
@@ -27,9 +27,9 @@ Para poder codificar nuestros test simplemente tendremos que ir a las pestañas 
 
 En este caos nos vamos a centrar en cómo crear los **test con [Postman][Postman]**. Un test con [Postman][Postman] tiene tres partes:
 
-* Descripción del Test
-* Código asociado al Test
-* Resultado de la ejecución del Test
+* **Descripción del Test**, un texto que describe la finalida del test.
+* **Código asociado al Test**, código que utiliza el api de [Postman][Postman] `pm` para poder codificar los test unitarios.
+* **Resultado de la ejecución del Test**, información sobre los test que se han ejecutado correctamente, incorrectamente o que se han obviado.
 
 ![TestPostman]({{site.url}}/images/postman/postman-tests.png)
 
@@ -84,25 +84,9 @@ pm.test("Nombre es Víctor", function(){
   nombre = pm.response.json().nombre;
   pm.expect(nombre).to.equal("Víctor");
 });
-~~
+~~~
 
 Seguro que ya puedes empezar a realizar tus primeros test con [Postman][Postman]. Te dejo el [ejemplo de test explicado en el artículo][EjemploTestPostman] para que te valga como base.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 [Postman]: {{site.url}}/postman/que-es-postman/
 [EjemploTestPostman]: {{site.url}}/resources/postman/random_user.postman_collection.json
