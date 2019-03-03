@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "8e9fd01e-b459-478b-91fa-633cdcd9de0e",
+		"name": "Random User",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Obtener Usuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://randomuser.me/api/",
+					"protocol": "https",
+					"host": [
+						"randomuser",
+						"me"
+					],
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listado Usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://randomuser.me/api/?results={{$randomInt}}",
+					"protocol": "https",
+					"host": [
+						"randomuser",
+						"me"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "results",
+							"value": "{{$randomInt}}"
+						}
+					]
+				},
+				"description": "Obtener un listado de usuarios aleatorios."
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Mujer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://randomuser.me/api/?gender=female",
+					"protocol": "https",
+					"host": [
+						"randomuser",
+						"me"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "gender",
+							"value": "female"
+						}
+					]
+				},
+				"description": "Petición que devuelve una mujer"
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener persona por nacionalidad y genero",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "bba3a4d7-85dd-4c05-9c56-edaa0960d0f3",
+						"exec": [
+							"pm.test(\"API Responde con 200\", function() {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Genero masculino\", function() {",
+							"    pm.expect(pm.response.json().results[0].gender).to.equal(\"male\");",
+							"});",
+							"",
+							"pm.test(\"Nacionalidad Española\", function() {",
+							"    pm.expect(pm.response.json().results[0].nat).to.equal(\"ES\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "7d184208-6e42-47c4-92c9-1da7e6444c50",
+						"exec": [
+							"pm.environment.set(\"nacionalidad\",\"ES\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://randomuser.me/api/?gender=male&nat={{nacionalidad}}",
+					"protocol": "https",
+					"host": [
+						"randomuser",
+						"me"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "gender",
+							"value": "male"
+						},
+						{
+							"key": "nat",
+							"value": "{{nacionalidad}}"
+						}
+					]
+				},
+				"description": "El siguiente test realiza una petición de una persona atendiendo a una nacional `nat` y un género `gender`."
+			},
+			"response": []
+		}
+	]
+}
