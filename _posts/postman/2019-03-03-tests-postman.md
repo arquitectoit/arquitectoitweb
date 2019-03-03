@@ -25,7 +25,7 @@ Para poder codificar nuestros tests simplemente tendremos que ir a las pestañas
 
 ![Test y PreRequest en Postman]({{site.url}}/images/postman/test-script.png)
 
-En este caos nos vamos a centrar en cómo crear los **tests con [Postman][Postman]**. Un test con [Postman][Postman] tiene tres partes:
+En este caso nos vamos a centrar en cómo crear los **tests con [Postman][Postman]**. Un test con [Postman][Postman] tiene tres partes:
 
 * **Descripción del Test**, un texto que describe la finalida del test.
 * **Código asociado al Test**, código que utiliza el api de [Postman][Postman] `pm` para poder codificar los tests unitarios.
