@@ -11,6 +11,8 @@ image:
 comments: true
 share: true
 author: victor_cuervo
+redirect_from:
+ - /editorial/metamorfosis-en-la-arquitectura-de-software/
 ---
 Hace no mucho participaba en una conversación sobre los nuevos modelos de desarrollo de software. Equipos ágiles y autosuficientes, con capacidad de decisión a la hora de crear y desplegar su software. Y una de las conclusiones a las que se llegó no dejó de despertar en mí cierto asombro, a la vez que perplejidad... <em>"No hay arquitectura, cada uno desarrolla como cree que es correcto".</em>
 

@@ -9,6 +9,8 @@ image:
 comments: true
 share: true
 author: juan_manuel_garcia
+redirect_from:
+ - /front-end/ejemplo-de-layout-adaptable-con-media-queries/
 ---
 
 # Ejemplo de Diseño Sensible
