@@ -11,6 +11,20 @@ share: true
 author: victor_cuervo
 ---
 
+
+1. Qué es DevOps
+2. 7 Beneficios del DevOps
+3. Pilares del DevOps
+4. Herramientas DevOps
+5. Qué es DevSecOps
+6. Qué es DataOps
+
+ --> A partir de aquí empezar con las herramientas
+
+
+
+
+
 Durante muchos años el mundo tecnología vivía en una separación total entre el mundo del desarrollo y el mundo de la operación. Es decir, entre aquellos que diseñaban y desarrollaban las aplicaciones y aquellos que desplegaban las aplicaciones en una infraestructura y las desplegaban. Quizás pueda parecer algo muy lejano, o quizás no.
 
 Sin colaboración.
