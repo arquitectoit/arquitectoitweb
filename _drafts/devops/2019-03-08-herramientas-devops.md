@@ -44,12 +44,18 @@ CI
 
 * Calidad
  * Kiuwan
- * Sonar
+ * SonarQube - SonarCloud
+ * SonarLint
 
 * ¿Seguridad en la calidad?
 
 * JUnit
 * Selenium
+
+* Cobertura de Código
+ * Jacoco
+
+
 
 CD
 
@@ -81,7 +87,11 @@ CD
 * Prometheus
 * Splunk - ¿proactiva?
 * Nagios
+* Dynatrace
 
+## ITSM
+* ServiceNow
+* HPSM
 
 
 
