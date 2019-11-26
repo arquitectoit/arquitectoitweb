@@ -37,7 +37,7 @@
 
 - title: nginx
   name: Nginx
-  image: covers/nginx.png
+  image: covers/databases.png
   description: "Artículos sobre Nginx para sacarle un máxima productividad como balanceador de alto rendimiento, servidor web y proxy inverso."
 
 - title: jekyll
@@ -69,3 +69,13 @@
   name: DocumentDB
   image: covers/documentdb.jpg
   description: "DocumentDB nos ofrece una alternativa a MongoDB para disponer de un cluster totalmente gestionado por AWS."
+
+- title: docker
+  name: Docker
+  image: covers/container.jpg
+  description: "Los contenedores son paquetes ligeros, autónomos y ejecutables que incluyen lo necesario para ser ejecutados independientemente."
+
+- title: elasticsearch
+  name: Elasticsearch
+  image: covers/search.jpg
+  description: "Artículos sobre Elasticsearch, una base de datos NoSQL orientada a documentos JSON y a la búsqueda de textos."
