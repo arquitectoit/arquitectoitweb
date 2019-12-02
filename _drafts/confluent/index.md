@@ -1,4 +1,0 @@
-
-
-* Qué es Confluent
-* KSQL
