@@ -17,10 +17,19 @@ Habría que darle formato para que aparezcan las cosas más destacadas, posiblem
 
 Listado de artículos (listado...)
 
-# Contenedores
+---
+
+El uso de contenedores se ha extendido en los últimos tiempos. Las posibilidades que nos ofrecen.... bla bla bla... Docker
+
+
+## Contenedores
 
 * [¿Qué es un contenedor?]({% post_url docker/2019-02-18-que-es-un-contenedor %})
 * [Contenedores versus Máquinas virtuales]({% post_url docker/2019-02-20-contenedores-vs-maquinas-virtuales %})
+
+## Docker
+* [¿Qué es Docker?]({% post_url docker/2019-11-26-que-es-docker %})
+* [Instalar Docker]({% post_url docker/2019-11-27-instalar-docker-desktop %})
 
 
 ---
@@ -30,12 +39,10 @@ Listado de artículos (listado...)
 * 10 Beneficios Contenedores
 
 # Docker
-* ¿Qué es Docker?
 * Arquitectura Docker
 * ¿Qué es una imagen Docker?
 * Publicar una imagen Docker
 * Beneficios de Utilizar Docker
-* Instalar Docker
 * Primero pasos con Docker
 * Usando el API de Docker
 * Soluciones Docker
@@ -51,6 +58,10 @@ Listado de artículos (listado...)
 * Aplicación Flask en Docker
 * Levantar un Jekyll con Docker
 * Qué es el proyecto containerd
+* Crear una imagen base - https://docs.docker.com/develop/develop-images/baseimages/
+* Volumenes en Docker - https://www.josedomingo.org/pledin/2016/05/gestion-del-almacenamiento-en-docker/
+* Network - crear un bridge - https://docs.docker.com/network/bridge/
+* Servicios Swarm - https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/
 
 
 # Kubernetes
