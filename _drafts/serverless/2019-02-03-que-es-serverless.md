@@ -11,6 +11,12 @@ share: true
 author: victor_cuervo
 ---
 
+* Qué es
+* Ejemplos
+* Framework estándar
+* Alternativas
+
+
 Serverless no significa que no haya servidores como más de uno pueda estar pensando. Ya que al final todo software se ejecutará bao algún servidor.
 
 La idea del Serverless es que el usuario que está desarrollando **no se preocupe por el servidor de ejecución y por lo tanto tenga que saber de él**. De esta forma se enfoca en las necesidades de aplicación.
