@@ -79,3 +79,8 @@
   name: Elasticsearch
   image: covers/search.jpg
   description: "Artículos sobre Elasticsearch, una base de datos NoSQL orientada a documentos JSON y a la búsqueda de textos."
+
+- title: apache
+  name: Apache
+  image: covers/search.jpg
+  description: "Artículos relativos al servidor Apache y cómo poder sacarle el máximo partido a sus configuraciones para tener un servidor web optimizado"
