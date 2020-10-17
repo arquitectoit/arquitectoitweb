@@ -3,7 +3,9 @@ layout: page
 title: Apache
 excerpt: "Artículos relativos al servidor Apache y cómo poder sacarle el máximo partido a sus configuraciones para tener un servidor web optimizado"
 image:
-  feature: covers/api.png
+  feature: covers/pluma.jpg
+  credit: Alexander Sinn
+  creditlink: https://unsplash.com/@swimstaralex
 search_omit: true
 ---
 
