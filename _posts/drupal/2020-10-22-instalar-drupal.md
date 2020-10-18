@@ -2,7 +2,7 @@
 layout: post
 title: Instalar Drupal
 excerpt: "Descripción de los pasos que hay que seguir para poder realizar para poder instalar Drupal (idioma, configuración de base de datos, creación de usuarios,...)"
-categories: cms
+categories: drupal
 tags: [drupal,apache,bases de datos,xampp]
 image:
   feature: covers/gota.jpg
@@ -112,9 +112,9 @@ Los datos que podemos rellenar son los siguientes:
 
 Este será el último paso y ya estaremos en el Panel de Control de [Drupal][Drupal]. De esta manera habríamos terminado de instalar [Drupal][Drupal].
 
-[Drupal]: {% post_url cms/2020-10-04-que-es-drupal %}
+[Drupal]: {% link _drafts/cms/2020-10-04-que-es-drupal.md %}
 [DescargarDrupal]: https://www.drupal.org/download
 [DescargarDrupalOtrasVersiones]: https://www.drupal.org/project/drupal
 [CMS]: {{ site.url }}/cms/
 [Apache]:  {{ site.url }}/apache/
-[IdiomaDrupal]: {% post_url cms/2020-10-18-instalar-drupal-en-otros-idiomas %}
+[IdiomaDrupal]: {% link _posts/drupal/2020-10-24-instalar-drupal-en-otros-idiomas.md %}

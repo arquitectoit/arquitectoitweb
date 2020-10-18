@@ -2,7 +2,7 @@
 layout: post
 title: Instalar Drupal en otros idiomas
 excerpt: "Si queremos instalar Drupal en otros idiomas que no sea el inglés deberemos de realizar algunas modificaciones sobre el sistema de ficheros. Veamos cuales son."
-categories: cms
+categories: drupal
 tags: [drupal, idiomas, chmod]
 image:
   feature: covers/gota.jpg
@@ -39,5 +39,5 @@ Hay que decir que aunque el proceso de instalación habla de permisos 555, en mi
 
 De esta manera ya saber que te tocará modificar manualmente algunos directorios a la hora de instalar [Drupal][Drupal].
 
-[Drupal]: {% post_url cms/2020-10-04-que-es-drupal %}
+[Drupal]: {% link _drafts/cms/2020-10-04-que-es-drupal.md %}
 [CMS]: {{ site.url }}/cms/
