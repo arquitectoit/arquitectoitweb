@@ -82,5 +82,15 @@
 
 - title: apache
   name: Apache
-  image: covers/search.jpg
-  description: "Artículos relativos al servidor Apache y cómo poder sacarle el máximo partido a sus configuraciones para tener un servidor web optimizado"
+  image: covers/pluma.jpg
+  description: "Artículos relativos al servidor Apache y cómo poder sacarle el máximo partido a sus configuraciones."
+
+- title: php
+  name: PHP
+  image: covers/elefantes.jpg
+  description: "PHP es un lenguaje del lado del servidor que nos permite desarrollar aplicaciones y servicios web."
+
+- title: drupal
+  name: Drupal
+  image: covers/gota.jpg
+  description: "Drupal es un gestor de contenidos CMS que nos permite desarrollar webs en base a artículos, páginas, imágenes y archivos."  
