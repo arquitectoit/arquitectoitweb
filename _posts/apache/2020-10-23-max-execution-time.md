@@ -5,9 +5,7 @@ excerpt: "La variable de configuración max-execution-time le permite al servido
 categories: apache
 tags: [php,php.ini,servidor web]
 image:
-  feature: covers/write.jpg
-  credit: Wim Mulder
-  creditlink: https://www.flickr.com/photos/wimmulder/
+  feature: covers/spdy.jpg
 comments: true
 share: true
 author: victor_cuervo

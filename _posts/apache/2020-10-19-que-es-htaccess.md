@@ -5,6 +5,7 @@ excerpt: "Conocer qué es .htaccess y como funciona este fichero del servidor Ap
 categories: apache
 tags: [servidor web,htaccess,bloqueo ip,redirección]
 image:
+image:
   feature: covers/pluma.jpg
   credit: Alexander Sinn
   creditlink: https://unsplash.com/@swimstaralex
