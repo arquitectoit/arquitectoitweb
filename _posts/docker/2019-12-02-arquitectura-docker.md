@@ -8,7 +8,7 @@ image:
   feature: covers/docker.jpg
   credit: Thomas Kelley
   creditlink: https://unsplash.com/photos/t20pc32VbrU
-  comments: true
+comments: true
 share: true
 author: victor_cuervo
 ---

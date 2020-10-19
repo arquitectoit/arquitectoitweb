@@ -60,7 +60,7 @@ Son [CMS o Gestores de Contenido][QueEsCMS] de multipropósito en los que dispon
 
 * LifeRay
 * Joomla
-* Drupal
+* [Drupal][Drupal], CMS desarrollado en código abierto con [PHP][PHP] que permite crear webs dinámicas. Dispone de un core y múltiples extensiones basadas en módulos.
 * **Hippo CMS**, es un CMS se apoya en proyectos de código abierto de la **Apache Software Foundation**. Está basado en el estándar de [Java][Java] para repositorios **JCR**.
 * **BloomReach Experience Manager**, la solución de pago del [CMS][QueEsCMS] Hippo.
 * **Sitefinity**, un [Gestor de Contenidos][QueEsCMS] Web de la empresa *Progress*.
@@ -81,3 +81,5 @@ Un listado interesante de CMS lo puedes encontrar en [Headless CMS][HeadLessCMS]
 [HeadLessCMS]: https://headlesscms.org/
 [Jekyll]: {{site.baseurl}}/jekyll/
 [Java]: {{site.baseurl}}/java/
+[Drupal]: {% link _posts/drupal/2020-10-20-que-es-drupal.md %}
+[PHP]: {{site.url}}/php/
