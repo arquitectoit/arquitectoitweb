@@ -72,7 +72,7 @@ PHP OPcode caching can improve your site's performance considerably. It is highl
 
 Así que es bueno que configures Opcache en su instalación de [PHP][PHP] antes realizar la instalación de [Drupal][Drupal].
 
-[Drupal]: {% link _drafts/cms/2020-10-04-que-es-drupal.md %}
+[Drupal]: {% link _posts/drupal/2020-10-20-que-es-drupal.md %}
 [InstalarDrupal]: {% link _posts/drupal/2020-10-22-instalar-drupal.md %}
 [OPcachePHP]: https://www.php.net/manual/es/book.opcache.php
 [PHP]: http://www.manualweb.net/php

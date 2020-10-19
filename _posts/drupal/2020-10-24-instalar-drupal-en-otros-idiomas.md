@@ -39,5 +39,5 @@ Hay que decir que aunque el proceso de instalación habla de permisos 555, en mi
 
 De esta manera ya saber que te tocará modificar manualmente algunos directorios a la hora de instalar [Drupal][Drupal].
 
-[Drupal]: {% link _drafts/cms/2020-10-04-que-es-drupal.md %}
+[Drupal]: {% link _posts/drupal/2020-10-20-que-es-drupal.md %}
 [CMS]: {{ site.url }}/cms/
