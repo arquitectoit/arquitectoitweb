@@ -117,4 +117,4 @@ Este será el último paso y ya estaremos en el Panel de Control de [Drupal][Dru
 [DescargarDrupalOtrasVersiones]: https://www.drupal.org/project/drupal
 [CMS]: {{ site.url }}/cms/
 [Apache]:  {{ site.url }}/apache/
-[IdiomaDrupal]: {% link _posts/drupal/2020-10-24-instalar-drupal-en-otros-idiomas.md %}
+[IdiomaDrupal]: {{ site.url }}/drupal/instalar-drupal-en-otros-idiomas/
