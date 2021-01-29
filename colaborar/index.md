@@ -15,7 +15,7 @@ En [Arquitecto IT][ArquitectoIT] trabajamos con un repositorio Git que puedes en
 
 
 ## 1.1. Ubicar el Artículo
-El artículo con el que colabores deberá de estar dentro de la carpeta **_post** y a su vez en la subcarpeta de la temática sobre la que estés escribiendo. Por ejemplo **api-management**, **cloud**, **bigdata**,... Si no encuentras la temática más adecuada puedes crear una subcarpeta con dica temática.
+El artículo con el que colabores deberá de estar dentro de la carpeta **_post** y a su vez en la subcarpeta de la temática sobre la que estés escribiendo. Por ejemplo **api-management**, **cloud**, **bigdata**,... Si no encuentras la temática más adecuada puedes crear una subcarpeta con dicha temática.
 
 ## 1.2. Formato del Artículo
 El formato del artículo debe de ser **markdown** y su nombre debe de seguir la siguiente estructura:

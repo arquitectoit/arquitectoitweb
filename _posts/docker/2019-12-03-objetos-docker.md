@@ -5,7 +5,7 @@ excerpt: "Para entender la arquitectura Docker hay que conocer los objetos Docke
 categories: docker
 tags: [imágenes,contenedores,volúmenes,redes]
 image:
-  feature: covers/docker.jpg
+  feature: covers/docker.png
   credit: Thomas Kelley
   creditlink: https://unsplash.com/photos/t20pc32VbrU
 comments: true

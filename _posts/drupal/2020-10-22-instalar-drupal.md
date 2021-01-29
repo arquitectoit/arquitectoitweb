@@ -112,7 +112,7 @@ Los datos que podemos rellenar son los siguientes:
 
 Este será el último paso y ya estaremos en el Panel de Control de [Drupal][Drupal]. De esta manera habríamos terminado de instalar [Drupal][Drupal].
 
-[Drupal]: {% link _posts/drupal/2020-10-20-que-es-drupal.md %}
+[Drupal]: {{ site.url }}/drupal/que-es-drupal/
 [DescargarDrupal]: https://www.drupal.org/download
 [DescargarDrupalOtrasVersiones]: https://www.drupal.org/project/drupal
 [CMS]: {{ site.url }}/cms/

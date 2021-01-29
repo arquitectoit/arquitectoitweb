@@ -5,7 +5,7 @@ excerpt: "Pasos que tenemos que dar para poder crear un índice en Elasticsearch
 categories: elasticsearch
 tags: [indice,json,sharding]
 image:
-  feature: covers/search.jpg
+  feature: covers/search.png
   credit: João Silas
   creditlink: https://unsplash.com/photos/UGQoo2nznz8
 comments: true

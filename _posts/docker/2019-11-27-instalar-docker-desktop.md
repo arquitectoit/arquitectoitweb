@@ -5,7 +5,7 @@ excerpt: "Proceso que explica cómo instalar Docker Desktop en Windows y en Mac.
 categories: docker
 tags: [docker,docker desktop,windows,mac]
 image:
-  feature: covers/docker.jpg
+  feature: covers/docker.png
   credit: Thomas Kelley
   creditlink: https://unsplash.com/photos/t20pc32VbrU
 comments: true
