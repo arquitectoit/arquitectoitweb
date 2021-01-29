@@ -1,9 +1,9 @@
 ---
 layout: post
-title: DevOps y sus herramientas - ¿Qué es Jenkins? 
-excerpt: "Jenkins es la principal herramienta a la que llegamos cuando oímos hablar de DevOps. En este post repasaremos los conceptos básicos que nos ayudarán a entender para qué sirve y a desenmarañar textos más complicados que os encontréis a partir de ahora."
+title: ¿Qué es Jenkins? 
+excerpt: "En este post repasaremos los conceptos básicos que nos ayudarán a entender qué es jenkins, para qué sirve y a desenmarañar textos más complicados que os encontréis a partir de ahora."
 categories: devops
-tags: [desarrollo,operacion,metodología,despliegue continuo,entrega continua,integración continua, jenkins, pipeline as code, pipeline]
+tags: [despliegue continuo,entrega continua,integración continua, jenkins, pipeline as code, pipeline]
 image:
   feature: covers/jenkins-head-logo.jpg
 comments: true
@@ -11,7 +11,7 @@ share: true
 author: gustavo_puig
 ---
 
-Cualquier aventurero que se adentre en esto del DevOps se tendrá que enfrentar con **Jenkins**. Y es que ***Jenkins*** es la pieza angular de todo pipeline. De hecho, es aquel encargado de orquestar la ejecución de cualquier automatismo que la industria de nuestra empresa requiera.
+Cualquier aventurero que se adentre en esto del [DevOps][DevOps] se tendrá que enfrentar con **Jenkins** y preguntarse **¿Qué es Jenkins?**. Y es que ***Jenkins*** es la pieza angular de todo pipeline. De hecho, es aquel encargado de orquestar la ejecución de cualquier automatismo que la industria de nuestra empresa requiera.
 
 ***Jenkins*** entiende que un pipeline no es otra cosa que una distribución de pasos, de pequeñas tareas, las cuales concatenadas (o paralelizadas) consiguen aquello que se conoce como Integración o Despliegue (los conceptos de "continuo" que suelen acompañar a estos dos conceptos son un apostrofre que habla de una dinámica, de un paradigma de desarrollo que consiste en hacer estas dos cosas mucho y con cada cambio de los fuentes del sofware).
 
@@ -47,11 +47,11 @@ Cada vez que hagáis uno, pensad que queréis venderlo.. de hecho, y aunque es u
 
 Vale, ahora quiero implementar un paso. Con Jenkins no nos abandona el código. 
 
-**Groovy** es el lenguaje principal de Jenkins. A aquellos que manejen ***Java***, no le verán ningún problema. De hecho se trata de un ***Java*** "tuneado" y simplificado para hacer scripts de este tipo. 
+**Groovy** es el lenguaje principal de Jenkins. A aquellos que manejen ***[Java][Java]***, no le verán ningún problema. De hecho se trata de un ***[Java][Java]*** "tuneado" y simplificado para hacer scripts de este tipo. 
 
 ***Jenkins*** tiene sus complicaciones, pero el lenguaje base no es una de ellas. 
 
-Ahora bien, podéis hacer vuestros pasos en el idioma que queráis. Si instaláis las librerías de vuestro lenguaje favorito en la máquina donde corre ***Jenkins***, podréis ejecutar cualquier tipo de script. De hecho DevOps pide a gritos ser poliglota dado que no todos los lenguajes están optimizados para lo mismo. Por ejemplo, **Python** dispone potentes librerías para hacer operaciones complejas, y **Perl** viene muy a mano para tratar expresiones regulares. Pero sin ir mas lejos, interactuar con el SO mediante un **shell script** es de lo más habitual que encontrarás.
+Ahora bien, podéis hacer vuestros pasos en el idioma que queráis. Si instaláis las librerías de vuestro lenguaje favorito en la máquina donde corre ***Jenkins***, podréis ejecutar cualquier tipo de script. De hecho [DevOps][DevOps] pide a gritos ser poliglota dado que no todos los lenguajes están optimizados para lo mismo. Por ejemplo, **Python** dispone potentes librerías para hacer operaciones complejas, y **Perl** viene muy a mano para tratar expresiones regulares. Pero sin ir mas lejos, interactuar con el SO mediante un **shell script** es de lo más habitual que encontrarás.
 
 ### Dos maneras de describirlo
 
@@ -72,7 +72,7 @@ Para ***Jenkins***, el Maestro es el centro de operaciones, un punto logístico 
 
 Sin embargo, los esclavos son individuos que despiertan cuando el Maestro tiene una tarea que delegar. El Maestro recibe el evento de que debe ejecutarse un nuevo pipeline y ordena a los esclavos que ejecuten sus pasos.
 
-Es interesante tener en la cabeza que un pipeline puede ejecutarse enteramente con único esclavo, pero los ingenieros solemos utilizar varios durante un mismo pipeline. Esto es porque creemos muy fuerte en el que "quien mucho abarca, poco aprieta" y un solo individuo es imposible que sea bueno en hacer de todo. Por esto preparamos disintas tipologías de esclavos que trabajan juntos para resolver un pipeline. De hecho tenemos esclavos para trabajar con ***Java***, otros con ***.Net***, con ***Python***... ahora, gracias a los contenedores Docker esto se ha hecho tan fácil... 
+Es interesante tener en la cabeza que un pipeline puede ejecutarse enteramente con único esclavo, pero los ingenieros solemos utilizar varios durante un mismo pipeline. Esto es porque creemos muy fuerte en el que "quien mucho abarca, poco aprieta" y un solo individuo es imposible que sea bueno en hacer de todo. Por esto preparamos disintas tipologías de esclavos que trabajan juntos para resolver un pipeline. De hecho tenemos esclavos para trabajar con ***[Java][Java]***, otros con ***.Net***, con ***Python***... ahora, gracias a los contenedores Docker esto se ha hecho tan fácil... 
 
 ### Dos tipos distintos de pipelines
 
@@ -88,35 +88,11 @@ Sin embargo, el segundo está pensado para ejecutarse o bien de forma manual, un
 
 Por suerte, no todos las tareas hay que "picárselas". Jenkins dispone de un amplio catálogo de plugins que incorporan funcionalidad específica a nuestros pipelines. Y es esta **una de las grandes ventajas de la herramienta**. 
 
-Como buenos ***techies*** muchas veces nos dejamos llevar por la arrogancia de querer implementarlo todo nosotros, como si fuéramos infalibles. Pues bien, es **un error**. Nuestra potencia como ingeniero DevOps está en perjiñar un pipeline, de conceptualizarlo, y desarrollarlo rápido y de forma robusta. Es nuestra industria la que está en juego!! Recordad que los mantras de DevOps pretenden **hacer llegar el software mucho** al usuario final **y hacerlo ágilmente**. Cuando ***Jenkins*** falla demasiado se convierte en un incordio más que una ayuda, y nació para esto último. Nuestra foco debe estar en descubrir cada vez más escenarios que necesitan ayuda y podemos optimizar. 
+Como buenos ***techies*** muchas veces nos dejamos llevar por la arrogancia de querer implementarlo todo nosotros, como si fuéramos infalibles. Pues bien, es **un error**. Nuestra potencia como ingeniero [DevOps][DevOps] está en perjiñar un pipeline, de conceptualizarlo, y desarrollarlo rápido y de forma robusta. Es nuestra industria la que está en juego!! Recordad que los mantras de [DevOps][DevOps] pretenden **hacer llegar el software mucho** al usuario final **y hacerlo ágilmente**. Cuando ***Jenkins*** falla demasiado se convierte en un incordio más que una ayuda, y nació para esto último. Nuestra foco debe estar en descubrir cada vez más escenarios que necesitan ayuda y podemos optimizar. 
 
 La comunidad es muy buena en liberar nuevas capacidades, **y un código probado mucho es mejor que uno molón**.
 
-### Y todo esto...
+Espero que os haya gustado y ahora sepáis un poco más sobre **¿qué es Jenkins?**.
 
-Hacen el tan famoso "pipeline as code". 
-
-
-Pero, hay otras maneras de hacerlo? La respuesta es sí. 
-
-## Principales Competidores
-
-No creáis que Jenkins es la única que sabe hacer este tipo de cosas. Existen en el mercado otras muy decentes, a la par que potentes, que le plantan cara:
-
-![Azure DevOps](images/devops/azuredevops-logo.png)
-
-***Microsoft*** optó por ofrecer junto a su plataforma **Azure DevOps** toda una suite de herramientas para la Integración Continua y los Despliegues. Aquí el ***Multibranch*** se llamaría ***Build*** el cual genera un artefacto que desplegará la parte de ***Release*** (el equivalente cercano del ***Freestyle***). La principal diferencia es que este está enfocado al ***Drag & Drop*** de un conjunto de cajitas configurables que ofrecen una funcionalidad concreta. Como lo del ***pipeline as code*** se ha puesto muy de moda, los chicos de Micro están permitiendo guardar las configuraciones en formato yml, que aunque no es tan flexible como Jenkins permite que los almacenemos y metamos en un control de versiones. Una cosa que es inresante remarcar es que, si no dispones de infra, Azure te presta la suya para que tires millas a un coste razonable.
-
-![Bamboo](images/devops/bamboo-logo.png)
-
-**Bamboo** sigue una técnica similar a la anterior. Puede ser una herramienta factible para aquellos que dispongan de otras de la suite de ***Atlassian***, por las integraciones de caja que que ofrece. No obstante, Atlassian está moviéndose muy rápido a su formato SaaS y todo apunta a que terminará desconinuando esto para seguir mejorando la nueva **Bitbucket Pipelines**. Aunque aún es un poco joven y no dispone de demasiados plugins, todo apunta a que se covertira en una opción que ocupará buena tajada en el mercado.
-
-![Travis CI](images/devops/travis-ci-logo.jpg)
-
-**Travis CI** es otra opción más que interesante. Está a la cabeza de las soluciones SaaS y es largamente conocida por su amplia cartera de tecnologías soportadas. Una de las características que la hacen más potente es la ***matriz de test*** que permite ejecutarlos sobre nuestro software con diferentes configuraciones de versiones de sus paquetes, dependencias, etc. Y además soporta Docker por lo que no tendrás problema para ejecutarlos en las mismas condiciones que tus entornos (y tienen MACs, una máquina complicadísima de simular o integrar en casa). Te interesará saber que hay planes gratuitos para proyectos OpenSource!!.
-
-
-En definitiva, **#DevOps** como paradigma, cada vez dispone de más adeptos, y con ellos, la cantidad de herramientas de todos los sabores está creciendo en los últimos años. Si bien, ***Jenkins*** está a la cabeza y sigue apretando fuerte gracias a los amigos de **Cloudbees**, desarrolladores principales de su fuente (porque ***Jenkins*** es OpenSource). Ellos, además de comercializar una versión con soporte, ofrecen otra suerte de herramientas muy útiles para otros segmentos de ***DevOps*** un tanto más avanzados que el ya tradicional ***CI & CD***.
-Os animáis a hacer algún pipeline? Pues tenemos en el horno un post que mete las manos en harina y os acompaña a tirar uno sencillito pero muy didáctico.
-
-**Nos vemos pronto =D**
+[DevOps]: {{site.url}}/devops/
+[Java]:  {{site.url}}/java/
