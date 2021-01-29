@@ -5,7 +5,7 @@ excerpt: "Análisis de los retos en la monitorización de microservicios según 
 categories: microservicios
 tags: [monitorización, microservicios]
 image:
-  feature: covers/monitoring.jpg
+  feature: covers/monitoring.png
 comments: true
 share: true
 author: victor_cuervo

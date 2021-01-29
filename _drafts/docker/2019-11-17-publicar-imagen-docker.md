@@ -5,7 +5,7 @@ excerpt: "Proceso que explica como publicar imagen Docker en un registro Docker 
 categories: docker
 tags: [docker]
 image:
-  feature: covers/container.jpg
+  feature: covers/container.png
   credit: Guillaume Bolduc
   creditlink: https://unsplash.com/photos/uBe2mknURG4
 comments: true

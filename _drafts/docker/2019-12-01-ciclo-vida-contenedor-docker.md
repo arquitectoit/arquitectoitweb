@@ -5,7 +5,7 @@ excerpt: "xx"
 categories: docker
 tags: [ciclo de vida]
 image:
-  feature: covers/docker.jpg
+  feature: covers/docker.png
   credit: Thomas Kelley
   creditlink: https://unsplash.com/photos/t20pc32VbrU
   comments: true
@@ -13,7 +13,7 @@ share: true
 author: victor_cuervo
 ---
 
-![Arquitectura Docker]({{ site.url }}/images/dockers/arquitectura-docker.jpg)
+![Arquitectura Docker]({{ site.url }}/images/dockers/arquitectura-docker.png)
 
 
 

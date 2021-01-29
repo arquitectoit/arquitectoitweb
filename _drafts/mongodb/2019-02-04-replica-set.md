@@ -5,7 +5,7 @@ excerpt: "Qué es un Replica Set"
 categories: mongodb
 tags: [nosql,transacciones,mongodb]
 image:
-  feature: covers/hoja.jpg
+  feature: covers/hoja.png
 comments: true
 share: true
 author: victor_cuervo

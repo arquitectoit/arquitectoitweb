@@ -5,7 +5,7 @@ excerpt: "Listado Bases de Datos NOSQL"
 categories: mongodb
 tags: [nosql,mongodb]
 image:
-  feature: covers/hoja.jpg
+  feature: covers/hoja.png
 comments: true
 share: true
 author: victor_cuervo

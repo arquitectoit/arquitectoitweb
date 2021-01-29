@@ -5,7 +5,7 @@ excerpt: "bla bla bla."
 categories: cms
 tags: [jekyll,wordpress]
 image:
-  feature: covers/write.jpg
+  feature: covers/write.png
   credit: Wim Mulder
   creditlink: https://www.flickr.com/photos/wimmulder/
 comments: true

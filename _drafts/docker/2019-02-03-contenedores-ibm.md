@@ -5,7 +5,7 @@ excerpt: "bla bla bla"
 categories: docker
 tags: [namespaces]
 image:
-  feature: covers/container.jpg
+  feature: covers/container.png
   credit: Guillaume Bolduc
   creditlink: https://unsplash.com/photos/uBe2mknURG4
 comments: true

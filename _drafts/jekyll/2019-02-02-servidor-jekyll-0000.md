@@ -5,7 +5,7 @@ excerpt: "Cómo podemos crear un enlace a un post que exista dentro de Jekyll."
 categories: jekyll
 tags: [post,blog,jekyll]
 image:
-  feature: covers/write.jpg
+  feature: covers/write.png
   credit: Wim Mulder
   creditlink: https://www.flickr.com/photos/wimmulder/
 comments: true

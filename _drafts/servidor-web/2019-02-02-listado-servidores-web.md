@@ -5,7 +5,7 @@ excerpt: "bla bla"
 categories: servidor web
 tags: [apache,nginx,iis]
 image:
-  feature: covers/cms.jpg
+  feature: covers/cms.png
   credit: mightymightymatze
   creditlink: https://www.flickr.com/photos/mightymightymatze/
 comments: true

@@ -5,7 +5,7 @@ excerpt: "xxx"
 categories: front
 tags: [microfrontend, dom, javascript, html]
 image:
-  feature: covers/front.jpg
+  feature: covers/front.png
 comments: true
 share: true
 author: victor_cuervo

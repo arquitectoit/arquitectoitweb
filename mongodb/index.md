@@ -3,7 +3,7 @@ layout: page
 title: MongoDB
 excerpt: "Análisis de las funcionalidades y capacidades que nos ofrece la base de datos orientada a documentos JSON MongoDB."
 image:
-  feature: covers/hoja.jpg
+  feature: covers/hoja.png
   credit: Martin Castro
   creditlink: https://unsplash.com/photos/dlMui5b3yR4
 search_omit: true

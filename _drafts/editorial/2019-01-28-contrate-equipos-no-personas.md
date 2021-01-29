@@ -5,7 +5,7 @@ excerpt: "Contratar talento facilita el cambio de los procesos de gestión de la
 categories: editorial
 tags: [talento]
 image:
-  feature: covers/equipo.jpg
+  feature: covers/equipo.png
   credit: Foxcroft Academy
   creditlink: https://www.flickr.com/photos/foxcroftacademy/
 comments: true

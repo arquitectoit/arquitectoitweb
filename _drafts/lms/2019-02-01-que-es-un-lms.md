@@ -5,7 +5,7 @@ excerpt: "Qué es un CMS o Gestor de Contenidos y cómo puede ayudarnos en la co
 categories: lms
 tags: [jekyll,wordpress,]
 image:
-  feature: covers/cms.jpg
+  feature: covers/cms.png
   credit: mightymightymatze
   creditlink: https://www.flickr.com/photos/mightymightymatze/
 comments: true

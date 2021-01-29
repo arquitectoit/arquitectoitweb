@@ -5,7 +5,7 @@ excerpt: "El nuevo formato AVIF proporciona altos grados de compresión mantenie
 categories: front
 tags: [avif,webp,gif,jpeg]
 image:
-  feature: covers/marcos-foto.jpg
+  feature: covers/marcos-foto.png
   credit: Jessica Ruscello
   creditlink: https://unsplash.com/@jruscello
 comments: true

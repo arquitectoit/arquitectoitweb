@@ -5,7 +5,7 @@ excerpt: "Hace no mucho participaba en una conversación sobre los nuevos modelo
 categories: editorial
 tags: [arquitectura software]
 image:
-  feature: covers/metamorfosis.jpg
+  feature: covers/metamorfosis.png
   credit: Raneko
   creditlink: https://www.flickr.com/photos/raneko
 comments: true

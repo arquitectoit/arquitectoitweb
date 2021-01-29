@@ -5,7 +5,7 @@ excerpt: "xxx"
 categories: docker
 tags: [docker,arquitectura,api]
 image:
-  feature: covers/docker.jpg
+  feature: covers/docker.png
   credit: Thomas Kelley
   creditlink: https://unsplash.com/photos/t20pc32VbrU
   comments: true

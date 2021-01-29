@@ -5,7 +5,7 @@ excerpt: "Un listado de URLs sobre Docker que nos ayudará a conocer un poco má
 categories: docker
 tags: [docker,urls]
 image:
-  feature: covers/container.jpg
+  feature: covers/container.png
   credit: Guillaume Bolduc
   creditlink: https://unsplash.com/photos/uBe2mknURG4
 comments: true

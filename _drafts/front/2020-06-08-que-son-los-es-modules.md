@@ -5,7 +5,7 @@ excerpt: "Desde ES6 Javascript permite el uso de módulos, así que veremos qué
 categories: front
 tags: [microfrontend, modulos, javascript]
 image:
-  feature: covers/front.jpg
+  feature: covers/front.png
 comments: true
 share: true
 author: victor_cuervo

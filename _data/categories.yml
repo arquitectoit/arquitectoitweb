@@ -27,7 +27,7 @@
 
 - title: front
   name: Front Development
-  image: covers/front.jpg
+  image: covers/front.png
   description: "Artículos sobre los frameworks de desarrollo de aplicaciones front, técnicas de accesibilidad y uso de los navegadores web."
 
 - title: java
@@ -42,27 +42,27 @@
 
 - title: jekyll
   name: Jekyll
-  image: covers/write.jpg
+  image: covers/write.png
   description: "Artículos y ejemplos para poder manejar de forma óptima tu servidor de blogs Jekyll mediante ficheros estáticos."
 
 - title: cms
   name: CMS
-  image: covers/cms.jpg
+  image: covers/cms.png
   description: "Artículos sobre lo que son y cómo podemos aprovechas las capacidades de un CMS o Gestor de Contenidos."
 
 - title: nosql
   name: NoSQL
-  image: covers/nosql.jpg
+  image: covers/nosql.png
   description: "Artículos sobre las posibilidades que nos ofrecen las bases de dato no estructuradas o bases de datos NoSQL."
 
 - title: mongodb
   name: MongoDB
-  image: covers/hoja.jpg
+  image: covers/hoja.png
   description: "Análisis de las funcionalidades y capacidades que nos ofrece la base de datos orientada a documentos JSON MongoDB."
 
 - title: postman
   name: Postman
-  image: covers/postman.jpg
+  image: covers/postman.png
   description: "Postman es un entorno de desarrollo API First que nos permite gestionar parte del ciclo de vida del API Management."
 
 - title: documentdb
@@ -72,12 +72,12 @@
 
 - title: docker
   name: Docker
-  image: covers/container.jpg
+  image: covers/container.png
   description: "Los contenedores son paquetes ligeros, autónomos y ejecutables que incluyen lo necesario para ser ejecutados independientemente."
 
 - title: elasticsearch
   name: Elasticsearch
-  image: covers/search.jpg
+  image: covers/search.png
   description: "Artículos sobre Elasticsearch, una base de datos NoSQL orientada a documentos JSON y a la búsqueda de textos."
 
 - title: apache

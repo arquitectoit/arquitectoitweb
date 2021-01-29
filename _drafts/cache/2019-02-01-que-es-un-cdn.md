@@ -5,7 +5,7 @@ excerpt: "¿Qué es un CDN?"
 categories: cache
 tags: [cdn]
 image:
-  feature: covers/write.jpg
+  feature: covers/write.png
   credit: Wim Mulder
   creditlink: https://www.flickr.com/photos/wimmulder/
 comments: true

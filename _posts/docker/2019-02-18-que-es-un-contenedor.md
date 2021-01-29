@@ -5,7 +5,7 @@ excerpt: "Los contenedores son paquetes ligeros, autónomos y ejecutables que in
 categories: docker
 tags: [contenedor,cgroups,namespaces,linux]
 image:
-  feature: covers/container.jpg
+  feature: covers/container.png
   credit: Guillaume Bolduc
   creditlink: https://unsplash.com/photos/uBe2mknURG4
 comments: true

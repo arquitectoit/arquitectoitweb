@@ -5,7 +5,7 @@ excerpt: "Análisis de los elementos que conforman la Arquitectura Docker: clien
 categories: docker
 tags: [arquitectura,api,docker engine,docker registry]
 image:
-  feature: covers/docker.jpg
+  feature: covers/docker.png
   credit: Thomas Kelley
   creditlink: https://unsplash.com/photos/t20pc32VbrU
 comments: true
@@ -17,7 +17,7 @@ La arquitectura [Docker][Docker] es una **arquitectura cliente-servidor**, dónd
 
 El hecho de que el *cliente* se comunique con el *servidor* mediante el *API* hace que el *cliente* y *servidor* puedan estar en la misma máquina comunicándose mediante sockets de UNIX o bien en máquinas diferentes comunicándose mediante un end-point en la red.
 
-![Arquitectura Docker]({{ site.url }}/images/dockers/arquitectura-docker.jpg)
+![Arquitectura Docker]({{ site.url }}/images/dockers/arquitectura-docker.png)
 
 [Docker][Docker] está **escrito en GO**, aunque también se aprovecha de muchas de las *capacidades del kernel Linux*, como *namespaces*, *cgroups*, y el sistema de ficheros *UnionFS*.
 

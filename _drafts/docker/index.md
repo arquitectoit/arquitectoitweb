@@ -5,7 +5,7 @@ excerpt: "Listado con los artículos de contenedores"
 categories: docker
 tags: [docker,contenedores,kubernetes]
 image:
-  feature: covers/container.jpg
+  feature: covers/container.png
   credit: Guillaume Bolduc
   creditlink: https://unsplash.com/photos/uBe2mknURG4
 comments: true

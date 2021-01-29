@@ -5,7 +5,7 @@ excerpt: "Chuleta Comandos Docker dónde puedes encontrar los comandos más util
 categories: docker
 tags: [docker]
 image:
-  feature: covers/container.jpg
+  feature: covers/container.png
   credit: Guillaume Bolduc
   creditlink: https://unsplash.com/photos/uBe2mknURG4
 comments: true

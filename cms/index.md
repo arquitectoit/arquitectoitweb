@@ -3,7 +3,7 @@ layout: page
 title: CMS
 excerpt: "Artículos sobre los CMS o Gestores de Contenidos."
 image:
-  feature: covers/cms.jpg
+  feature: covers/cms.png
   credit: mightymightymatze
   creditlink: https://www.flickr.com/photos/mightymightymatze/
 ---

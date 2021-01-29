@@ -5,7 +5,7 @@ excerpt: "Cómo podemos utilizar el generador de sitios estáticos mediante plan
 categories: jekyll
 tags: [cms,jekyll]
 image:
-  feature: covers/write.jpg
+  feature: covers/write.png
   credit: Wim Mulder
   creditlink: https://www.flickr.com/photos/wimmulder/
 comments: true

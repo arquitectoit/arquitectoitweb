@@ -26,8 +26,38 @@ Las aplicaciones serverless son desencadenadas por eventos los cuales invocan a 
 En un modelo PaaS te tienes que ocupar por más elementos para que la aplicación funcione.
 
 
+* El servior atienda o no peticiones deberá de estar encendido
+* Hay que mantener actualizado y parcheado el servidor
+* Hay que gestionar el escalado up&down atendiendo a la demanda.
+
+
+Es una evolución del IaaS y el PaaS
+
+
 Soluciones de Serverless
 
 	* Amazon WebServices Lambda
 	* Google Cloud Functions
-	*
+	* Azure Functions
+	* IBM OpenWhisk
+	* Kubeless
+
+	
+	* Spotinst?
+	* Webtasks??
+
+
+¿Existe algún framework estandar?
+
+
+## Características del Serverless
+
+* El código de desarrollo sobre serverless se diseñará en base a funciones de pequeño tamaño.
+* Las funciones se ejecutan en un contexto sin estado, por lo que no hay relación entre una inovcación a la función y la siguiente.
+
+* Solo se paga por lo que se consume
+
+
+
+
+

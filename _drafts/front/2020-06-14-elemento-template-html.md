@@ -5,7 +5,7 @@ excerpt: "xxx"
 categories: front
 tags: [html, template, webcomponents]
 image:
-  feature: covers/front.jpg
+  feature: covers/front.png
 comments: true
 share: true
 author: victor_cuervo
