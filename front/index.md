@@ -3,7 +3,7 @@ layout: page
 title: Front Development
 excerpt: "Análisis de los frameworks y tecnologías para el desarrollo de las capas front de las aplicaciones. Revisión de los dispositivos, navegadores,..."
 image:
-  feature: covers/front.jpg
+  feature: covers/front.png
 ---
 
 {% assign categoria = site.data.categories | where:"title","front" %}

@@ -3,7 +3,7 @@ layout: page
 title: Docker
 excerpt: "Los contenedores son paquetes ligeros, autónomos y ejecutables que incluyen lo necesario para ser ejecutados independientemente"
 image:
-  feature: covers/container.jpg
+  feature: covers/container.png
   credit: Guillaume Bolduc
   creditlink: https://unsplash.com/photos/uBe2mknURG4
 search_omit: true

@@ -3,7 +3,7 @@ layout: page
 title: NoSQL
 excerpt: "Artículos sobre las posibilidades que nos ofrecen las bases de dato no estructuradas o bases de datos NoSQL"
 image:
-    feature: covers/nosql.jpg
+    feature: covers/nosql.png
     credit: netzanette
     creditlink: https://www.flickr.com/photos/netzanette/
 search_omit: true

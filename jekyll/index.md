@@ -3,7 +3,7 @@ layout: page
 title: Jekyll
 excerpt: "Artículos sobre la herramienta de blog Jekyll"
 image:
-  feature: covers/write.jpg
+  feature: covers/write.png
 ---
 
 {% assign categoria = site.data.categories | where:"title","jekyll" %}

@@ -5,7 +5,7 @@ excerpt: "Artículo que nos hace una pequeña introducción sobre qué es Jekyll
 categories: jekyll
 tags: [blog,markdown,liquid,github,ruby]
 image:
-  feature: covers/write.jpg
+  feature: covers/write.png
   credit: Wim Mulder
   creditlink: https://www.flickr.com/photos/wimmulder/
 comments: true

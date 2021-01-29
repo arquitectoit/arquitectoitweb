@@ -3,7 +3,7 @@ layout: page
 title: Elasticsearch
 excerpt: "Artículos sobre Elasticsearch, una base de datos NoSQL orientada a documentos JSON y a la búsqueda de textos"
 image:
-  feature: covers/search.jpg
+  feature: covers/search.png
   credit: João Silas
   creditlink: https://unsplash.com/photos/UGQoo2nznz8
 ---

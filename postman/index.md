@@ -3,7 +3,7 @@ layout: page
 title: Postman
 excerpt: "Postman es un entorno de desarrollo API First que nos permite gestionar parte del ciclo de vida del API Management."
 image:
-  feature: covers/postman.jpg
+  feature: covers/postman.png
   credit: Marius Christensen
   creditlink: https://unsplash.com/photos/UXfi8LyqGDk
 search_omit: true
