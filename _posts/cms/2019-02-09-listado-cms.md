@@ -81,5 +81,5 @@ Un listado interesante de CMS lo puedes encontrar en [Headless CMS][HeadLessCMS]
 [HeadLessCMS]: https://headlesscms.org/
 [Jekyll]: {{site.baseurl}}/jekyll/
 [Java]: {{site.baseurl}}/java/
-[Drupal]: {% link _posts/drupal/2020-10-20-que-es-drupal.md %}
+[Drupal]: {{site.baseurl}}/drupal/que-es-drupal %}
 [PHP]: {{site.url}}/php/
