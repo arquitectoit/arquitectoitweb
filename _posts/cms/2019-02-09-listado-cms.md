@@ -5,7 +5,7 @@ excerpt: "Listado que intenta recoger y mantener un listado actualizado de CMS d
 categories: cms
 tags: [wordpress,blogger,jekyll,question2answer,magento,prestashop,shopify,moodle,openedx,liferay,joomla,drupal]
 image:
-  feature: covers/cms.jpg
+  feature: covers/cms.png
   credit: mightymightymatze
   creditlink: https://www.flickr.com/photos/mightymightymatze/
 comments: true
@@ -60,7 +60,7 @@ Son [CMS o Gestores de Contenido][QueEsCMS] de multipropósito en los que dispon
 
 * LifeRay
 * Joomla
-* Drupal
+* [Drupal][Drupal], CMS desarrollado en código abierto con [PHP][PHP] que permite crear webs dinámicas. Dispone de un core y múltiples extensiones basadas en módulos.
 * **Hippo CMS**, es un CMS se apoya en proyectos de código abierto de la **Apache Software Foundation**. Está basado en el estándar de [Java][Java] para repositorios **JCR**.
 * **BloomReach Experience Manager**, la solución de pago del [CMS][QueEsCMS] Hippo.
 * **Sitefinity**, un [Gestor de Contenidos][QueEsCMS] Web de la empresa *Progress*.
@@ -81,3 +81,5 @@ Un listado interesante de CMS lo puedes encontrar en [Headless CMS][HeadLessCMS]
 [HeadLessCMS]: https://headlesscms.org/
 [Jekyll]: {{site.baseurl}}/jekyll/
 [Java]: {{site.baseurl}}/java/
+[Drupal]: {{site.baseurl}}/drupal/que-es-drupal %}
+[PHP]: {{site.url}}/php/

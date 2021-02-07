@@ -5,7 +5,7 @@ excerpt: "Postman es un entorno de desarrollo de APIs que nos permite diseñar, 
 categories: postman
 tags: [api first,mockups]
 image:
-  feature: covers/postman.jpg
+  feature: covers/postman.png
   credit: Marius Christensen
   creditlink: https://unsplash.com/photos/UXfi8LyqGDk
 comments: true

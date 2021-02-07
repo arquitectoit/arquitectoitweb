@@ -5,7 +5,7 @@ excerpt: "Artículo que nos explica qué es Docker y los conceptos principales d
 categories: docker
 tags: [docker,contenedor,imágen]
 image:
-  feature: covers/docker.jpg
+  feature: covers/docker.png
   credit: Thomas Kelley
   creditlink: https://unsplash.com/photos/t20pc32VbrU
 comments: true

@@ -5,7 +5,7 @@ excerpt: "Por qué la colaboración tiene que ser la base de la cultura y el pil
 categories: editorial
 tags: [colaboración,cultura,conocimiento,procesos,transformación digital]
 image:
-  feature: covers/mele.jpg
+  feature: covers/mele.png
   credit: Jim
   creditlink: https://www.flickr.com/photos/clumsyjim/
 comments: true

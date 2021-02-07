@@ -5,7 +5,7 @@ excerpt: "Análisis del soporte que ofrece MongoDB 4.0 al modelo ACID de transac
 categories: mongodb
 tags: [transacciones,acid,sesiones]
 image:
-  feature: covers/hoja.jpg
+  feature: covers/hoja.png
   credit: Martin Castro
   creditlink: https://unsplash.com/photos/dlMui5b3yR4
 comments: true

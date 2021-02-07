@@ -1,3 +1,6 @@
+# Gestión de Errores
+ErrorDocument 404 /404.html
+
 # Allow access from all domains for webfonts.
 # Alternatively you could only whitelist your
 # subdomains like "subdomain.example.com".
