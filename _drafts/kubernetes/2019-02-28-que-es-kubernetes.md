@@ -43,3 +43,65 @@ Las actualizaciones, parcheados y migraciones de los monolítos generan paradas 
 
 ### Microservicios
 Al revés que tener un sistema monolítoco la idea de los microservicios es la de dividir la aplicación
+
+
+-----
+
+Índice
+* ¿Qué es Kubernetes?
+
+
+Si revisámos en [la página oficias de Kubernetes][KubernetesOficial] sobre **¿Qué es Kuberneres?** vemos que nos dice que **es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios**.
+
+¿Qué quiere decir con que Kubernetes es una plataforma?
+
+Kubernetes está diseñado como una plataforma con un conjunto de componentes y herramientas que facilitan el despliegue, el escalado y la administración de aplicaciones.
+
+
+Kubernetes es un entorno **centrado en la gestión de contenedores**. De esa manera nos permite controlar la parte de infraestructura relativa al computo, las redes y el almacenamiento.
+
+Permite portabilidad entre proveedores de infraestructura?
+
+
+
+## Historia de Kubernetes
+Kubernetes es desarrollador por Google y **liberado a la comunidad en 2014**.
+
+
+## Características de Kubernetes
+
+* Plataforma de Contenedores
+* Plataforma de Microservicios
+
+
+## Elementos de Kubernetes
+https://kubernetes.io/docs/concepts/overview/components/
+
+* **Etiquetas o Labels** para organizar los recursos.
+* **Anotaciones**, para asignar información a un recurso y así facilitar sus flujos de trabajo y facilitar que las herramientas administrativas inspeccionen su estado.
+* **Control Plane o Plano de Control**, ...
+
+
+## Arquitectura Kubernetes
+
+![Componentes Kubernetes]({{site.url}}/images/kubernetes/componentes-kubernetes.png)
+
+### Nodos Worker
+Un cluster Kubernetes se compone de un conjunto nodos, que serían los workers. Los **workers** son los encargados de ejecutar las aplicaciones contenerizadas. Al menos existe un nodo worker.
+
+Dentro de un nodo worket encontramos los **pods** que son los componentes de carga de la aplicación.
+
+### Control Plane
+El plano de control o control plane gestiona los nodos worker y los pods que existan en los clusters.
+
+
+
+contiene nodos agente **kubelet** y un **plano de control del cluster** conocido como **master**.
+
+
+
+
+
+[KubernetesOficial]: https://kubernetes.io/es/docs/concepts/overview/what-is-kubernetes/
+
+
