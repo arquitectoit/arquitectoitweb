@@ -2,7 +2,7 @@
 layout: post
 title: Invisible XML
 excerpt: Invisible XML es un estándar que nos propone crear una gramática para poder interpretar cualquier tipo de documento y convertirlo a XML para poder ser procesado de forma automática.
-categories: XML
+categories: xml
 tags: [xml,ixml,w3c,w3c community]
 image:
   feature: covers/invisible.png
