@@ -94,3 +94,8 @@
   name: Drupal
   image: covers/gota.jpg
   description: "Drupal es un gestor de contenidos CMS que nos permite desarrollar webs en base a artículos, páginas, imágenes y archivos."  
+
+- title: xml
+  name: XML
+  image: covers/etiquetas.png
+  description: "XML o eXtended Markup Language es un lenguaje de etiquetado o marcado de información de propósito general."  
