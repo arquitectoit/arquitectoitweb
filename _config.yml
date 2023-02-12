@@ -5,7 +5,7 @@ locale: es_ES
 description: Análisis de Tecnologías
 logo: site-logo.png
 search: true
-#url: http://www.arquitectoit.com
+url: http://www.arquitectoit.com
 
 # Jekyll configuration
 
