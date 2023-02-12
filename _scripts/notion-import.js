@@ -22,7 +22,7 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 		database_id: databaseId,
 		filter: {
 			property: "Status",
-			checkbox: {
+			select: {
 				equals: "Published"
 			}
 		}
