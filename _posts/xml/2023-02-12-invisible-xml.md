@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Invisible XML
-excerpt: 74a3751f-29d3-48b1-a5ed-380ccae8fb40
+excerpt: Invisible XML es un estándar que nos propone crear una gramática para poder interpretar cualquier tipo de documento y convertirlo a XML para poder ser procesado de forma automática.
 categories: XML
 tags: [xml,ixml,w3c,w3c community]
 image:
-  feature: 74a3751f-29d3-48b1-a5ed-380ccae8fb40
-  credit: 74a3751f-29d3-48b1-a5ed-380ccae8fb40
-  creditlink: 74a3751f-29d3-48b1-a5ed-380ccae8fb40
+  feature: covers/invisible.png
+  credit: Michael Dziedzic
+  creditlink: https://unsplash.com/es/@lazycreekimages
 comments: true
 share: true
 author: victor_cuervo
