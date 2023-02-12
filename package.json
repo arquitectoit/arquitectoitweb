@@ -9,9 +9,6 @@
   "bugs": {
     "url": "https://github.com/mmistakes/so-simple-theme/issues"
   },
-  "engines": {
-    "node": ">= 0.10.0"
-  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-clean": "~0.5.0",
