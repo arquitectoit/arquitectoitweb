@@ -49,7 +49,7 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 		
 		// excerpt
 		let excerpt = id
-		let pexcerpt = r.properties?.['Excerpt']?.['title']
+		let pexcerpt = r.properties?.['Excerpt']?.['rich_text']
 		if (pexcerpt?.length > 0) {
 			excerpt = pexcerpt[0]?.['plain_text']
 		}
@@ -80,21 +80,21 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 
 		// image
 		let image= id
-		let pimage = r.properties?.['Image']?.['title']
+		let pimage = r.properties?.['Image']?.['rich_text']
 		if (pimage?.length > 0) {
 			image = pimage[0]?.['plain_text']
 		}
 
 		// image
 		let imageAutor= id
-		let pimageAutor = r.properties?.['ImageAutor']?.['title']
+		let pimageAutor = r.properties?.['ImageAutor']?.['rich_text']
 		if (pimageAutor?.length > 0) {
 			imageAutor = pimageAutor[0]?.['plain_text']
 		}
 
 		// image
 		let imageLink= id
-		let pimageLink = r.properties?.['ImageLink']?.['title']
+		let pimageLink = r.properties?.['ImageLink']?.['rich_text']
 		if (pimageLink?.length > 0) {
 			imageLink = pimageLink[0]?.['plain_text']
 		}		
