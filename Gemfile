@@ -22,7 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from","0.16.0"
 end
 
-# Eliminado la actualizacion del tema gem "jekyll-theme-so-simple"
+gem "jekyll-theme-so-simple"
 gem "kramdown-parser-gfm"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
