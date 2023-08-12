@@ -5,9 +5,9 @@ excerpt: "Para una buena implantación de un modelo DevOps será fundamental que
 categories: devops
 tags: [requisitos,microservicios,testing,automatización,cloud computing,monitorización,colaboración]
 image:
-  feature: covers/devops3.png
-  credit: Chad Kirchoff
-  creditlink: https://unsplash.com/photos/xe-e69j6-Ds
+  path: /images/covers/devops3.png
+  thumbnail: /images/covers/devops3.png
+  caption: Fotografía de [Chad Kirchoff](https://unsplash.com/photos/xe-e69j6-Ds)
 comments: true
 share: true
 author: victor_cuervo

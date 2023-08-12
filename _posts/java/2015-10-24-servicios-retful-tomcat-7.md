@@ -5,7 +5,8 @@ excerpt: "Apache Derby es un una base de datos relacional (RDBMS) programa compl
 categories: java
 tags: [tomcat,restful]
 image:
-  feature: covers/tomcat.png
+  path: /images/covers/tomcat.png
+  thumbnail: /images/covers/tomcat.png
 comments: true
 share: true
 author: victor_cuervo

@@ -5,7 +5,8 @@ excerpt: "Mediante la técnica de API Sandbox podemos simular la respuesta funci
 categories: api-management
 tags: [api sanbox,testing,api virtualización]
 image:
-  feature: covers/api.png
+  path: /images/covers/api.png
+  thumbnail: /images/covers/api.png
 comments: true
 share: true
 author: victor_cuervo

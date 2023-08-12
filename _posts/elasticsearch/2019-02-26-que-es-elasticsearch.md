@@ -5,9 +5,9 @@ excerpt: "Análisis sobre esta base de datos NoSQL orientada a documentos y a la
 categories: elasticsearch
 tags: [motor de búsqueda,lucene,java,rest,logs,métricas,seguridad]
 image:
-  feature: covers/search.png
-  credit: João Silas
-  creditlink: https://unsplash.com/photos/UGQoo2nznz8
+  path: /images/covers/search.png
+  thumbnail: /images/covers/search.png
+  caption: Fotografía de [João Silas](https://unsplash.com/photos/UGQoo2nznz8)
 comments: true
 share: true
 author: victor_cuervo

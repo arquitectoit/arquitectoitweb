@@ -5,9 +5,9 @@ excerpt: "Descripción de los pasos que hay que seguir para poder realizar para 
 categories: drupal
 tags: [drupal,apache,bases de datos,xampp]
 image:
-  feature: covers/gota.jpg
-  credit: Mayank Dhanawade
-  creditlink: https://unsplash.com/@mayank_dhanawade
+  path: /images/covers/gota.jpg
+  thumbnail: /images/covers/gota.jpg
+  caption: Fotografía de [Mayank Dhanawade](https://unsplash.com/@mayank_dhanawade)
 comments: true
 share: true
 author: victor_cuervo

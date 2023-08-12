@@ -6,7 +6,8 @@ modified: 2014-08-14T23:27:32.066+01:00
 categories: front
 tags: [spdy, http2]
 image:
-  feature: covers/spdy.png
+  path: /images/covers/spdy.png
+  thumbnail: /images/covers/spdy.png
 comments: true
 share: true
 author: jose_carlos_ferreiro

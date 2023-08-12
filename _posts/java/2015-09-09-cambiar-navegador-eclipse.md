@@ -5,7 +5,8 @@ excerpt: "Cómo poder configurar el navegador por defecto en la herramienta de d
 categories: java
 tags: [eclipse]
 image:
-  feature: covers/eclipse.jpg
+  path: /images/covers/eclipse.jpg
+  thumbnail: /images/covers/eclipse.jpg
 comments: true
 share: true
 author: victor_cuervo

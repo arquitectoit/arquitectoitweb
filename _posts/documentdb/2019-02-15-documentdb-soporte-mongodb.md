@@ -5,9 +5,9 @@ excerpt: "Uso de DocumentDB como base de datos NoSQL orientada a documentos y co
 categories: documentdb
 tags: [nosql, aws, replica set,backup]
 image:
-  feature: covers/documentdb.jpg
-  credit: Samuel Zeller
-  creditlink: https://unsplash.com/photos/vpR0oc4X8Mk
+  path: /images/covers/documentdb.jpg
+  thumbnail: /images/covers/documentdb.jpg
+  caption: Fotografía de [Samuel Zeller](https://unsplash.com/photos/vpR0oc4X8Mk)
 comments: true
 share: true
 author: victor_cuervo

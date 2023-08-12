@@ -5,9 +5,9 @@ excerpt: "Cómo crear entradas en formato borrador cuando estemos publicando con
 categories: jekyll
 tags: [blog,borradores]
 image:
-  feature: covers/write.png
-  credit: Wim Mulder
-  creditlink: https://www.flickr.com/photos/wimmulder/
+  path: /images/covers/write.png
+  thumbnail: /images/covers/write.png
+  caption: Fotografía de [Wim Mulder](https://www.flickr.com/photos/wimmulder/)
 comments: true
 share: true
 author: victor_cuervo

@@ -5,9 +5,9 @@ excerpt: "Entender qué es un cluster, un nodo, un índice, un tipo, un document
 categories: elasticsearch
 tags: [cluster,nodo,indice,tipo,documento,sharding,réplica]
 image:
-  feature: covers/search.png
-  credit: João Silas
-  creditlink: https://unsplash.com/photos/UGQoo2nznz8
+  path: /images/covers/search.png
+  thumbnail: /images/covers/search.png
+  caption: Fotografía de [João Silas](https://unsplash.com/photos/UGQoo2nznz8)
 comments: true
 share: true
 author: victor_cuervo

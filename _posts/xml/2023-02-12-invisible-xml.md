@@ -5,9 +5,9 @@ excerpt: Invisible XML es un estándar que nos propone crear una gramática para
 categories: xml
 tags: [xml,ixml,w3c,w3c community]
 image:
-  feature: covers/invisible.png
-  credit: Michael Dziedzic
-  creditlink: https://unsplash.com/es/@lazycreekimages
+  path: /images/covers/invisible.png
+  thumbnail: /images/covers/invisible.png
+  caption: Fotografía de [Michael Dziedzic](https://unsplash.com/es/@lazycreekimages)
 comments: true
 share: true
 author: victor_cuervo

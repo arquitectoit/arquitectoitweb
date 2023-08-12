@@ -5,7 +5,8 @@ excerpt: "Artículo que nos define conceptualmente qué es el cloud computing y 
 categories: cloud
 tags: [cloud computing, IaaS, PaaS, SaaS]
 image:
-  feature: covers/cloudcomputing.png
+  path: /images/covers/cloudcomputing.png
+  thumbnail: /images/covers/cloudcomputing.png
 comments: true
 share: true
 author: victor_cuervo

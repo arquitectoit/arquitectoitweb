@@ -5,9 +5,9 @@ excerpt: "Listado que intenta recoger y mantener un listado actualizado de CMS d
 categories: cms
 tags: [wordpress,blogger,jekyll,question2answer,magento,prestashop,shopify,moodle,openedx,liferay,joomla,drupal]
 image:
-  feature: covers/cms.png
-  credit: mightymightymatze
-  creditlink: https://www.flickr.com/photos/mightymightymatze/
+  path: /images/covers/cms.png
+  thumbnail: /images/covers/cms.png
+  caption: Fotografía de [mightymightymatze](https://www.flickr.com/photos/mightymightymatze/)
 comments: true
 share: true
 author: victor_cuervo

@@ -4,26 +4,35 @@ victor_cuervo:
   name: Víctor Cuervo
   email: vcuervo@gmail.com
   uri: http://www.victorcuervo.com
-  bio: "Head of Architecture en <strong>SegurCaixa Adeslas</strong>, programador y álter ego de <a href='http://lineadecodigo.com' alt='Aprende a Programar'><strong>Línea de Código</strong></a>, amante de las tecnologías en <a href='http://www.arquitectoit.com'><strong>Arquitecto IT</strong></a>, generador de conocimiento y facilitador del aprendizaje."
-  avatar: authors/victor.png
-  twitter: victor_cuervo
-  linkedin: victorcuervo
-  youtube: lineadecodigo
-  instagram: vcuervop
-  facebook: victor.cuervo
-  github: victorcuervo
-  lastfm: victorcuervo
-  flickr: victorcuervo
-  google:
-    plus: VíctorCuervoPalencia
+  bio: "Head of Architecture en <strong>Banco Sabadell</strong>, bético 🟢, padre de dos elemnetos, programador y álter ego de <a href='https://lineadecodigo.com' alt='Aprende a Programar'><strong>Línea de Código</strong></a> y <a href='https://www.manualweb.net' alt='Manuales de Programación'><strong>Manual Web</strong></a>, amante de las tecnologías en <a href='http://www.arquitectoit.com'><strong>Arquitecto IT</strong></a>, generador de conocimiento y facilitador del aprendizaje."
+  picture: /images/authors/victor.png
+  links:
+    - title: Twitter
+      url: https://twitter.com/victor_cuervo
+      icon: fab fa-twitter-square
+    - title: LinkedIn
+      url: https://linkedin.com/in/victorcuervo
+      icon: fab fa-linkedin
+    - title: Github
+      url: https://github.com/victorcuervo
+      icon: fab fa-github
+    - title: Youtube
+      url: https://youtube.com/lineadecodigo
+      icon: fab fa-youtube
+    - title: Instagram
+      url: https://instagram.com/vcuervop
+      icon: fab fa-instagram
+    - title: Facebook
+      url: https://facebook.com/victor.cuervo
+      icon: fab fa-facebook
 
 jose_carlos_ferreiro:
   name: José Carlos Ferreiro
-  avatar: http://www.gravatar.com/avatar/e8bdd42e0fc0b0899786f194042e2624?s=300
+  picture: /images/authors/jcferreiro.png
 
 juan_manuel_garcia:
   name: Juan Manuel García
-  avatar: authors/bio-photo.jpg
+  picture: /images/authors/bio-photo.png
   bio: "Actualmente trabajo como Arquitecto de Software, enfocado a la oferta de servicios en canales no presenciales, como Internet, Dispositivos Móviles y ATMs. Con experiencia en este mundo de la tecnología, desde hace 16 años, desarrollando los distintos roles que podemos encontrar en nuestro mundo IT, desde programador Junior hasta Jefe de Proyecto/Arquitecto/Representante comercial. Y al igual que casi todo el mundo, trabajando con distintas tecnologías y arquitecturas (desde Cliente-Servidor, hasta arquitecturas multicapa), siempre intentando seguir el día a día en la evolución de la Web."
 
 joaquin_copete:
@@ -31,16 +40,30 @@ joaquin_copete:
   email: jcopeteg@gmail.com
   uri: http://jcopete.com
   bio: "Problem solver with ability to build questions that uncover business needs, and possesses the ability to build and maintain business relationships with decision makers and influencers."
-  avatar: authors/jcopete.png
-  twitter: joCopete
-  linkedin: jcopete
-
+  picture: /images/authors/jcopete.png
+  links:
+    - title: Twitter
+      url: https://twitter.com/joCopete
+      icon: fab fa-twitter-square
+    - title: LinkedIn
+      url: https://linkedin.com/in/jcopete
+      icon: fab fa-linkedin
+  
 gustavo_puig:
   name: Gustavo Puig
   email: g.puig.baeza@gmail.com
   bio: "Mi misión es facilitar la comprensión de la tecnología. Actualmente, soy Arquitecto de Sistemas Software en Banc Sabadell. Disfruto comunicando y sembrando ambición en el equipo para afrontar nuevos retos."
-  avatar: authors/gpuig.jpg
-  twitter: run2gate
-  linkedin: gpuigbaeza
-  instagram: runt2gate
-  github: GustavoPB
+  picture: /images/authors/gpuig.png
+  links:
+    - title: Twitter
+      url: https://twitter.com/run2gate
+      icon: fab fa-twitter-square
+    - title: LinkedIn
+      url: https://linkedin.com/in/gpuigbaeza
+      icon: fab fa-linkedin
+    - title: Github
+      url: https://github.com/GustavoPB
+      icon: fab fa-github
+    - title: Instagram
+      url: https://instagram.com/runt2gate
+      icon: fab fa-instagram

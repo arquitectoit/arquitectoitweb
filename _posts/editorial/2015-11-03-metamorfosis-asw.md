@@ -5,9 +5,9 @@ excerpt: "Hace no mucho participaba en una conversación sobre los nuevos modelo
 categories: editorial
 tags: [arquitectura software]
 image:
-  feature: covers/metamorfosis.png
-  credit: Raneko
-  creditlink: https://www.flickr.com/photos/raneko
+  path: /images/covers/metamorfosis.png
+  thumbnail: /images/covers/metamorfosis.png
+  caption: Fotografía de [Raneko](https://www.flickr.com/photos/raneko)
 comments: true
 share: true
 author: victor_cuervo

@@ -5,7 +5,8 @@ excerpt: "Artículo que analiza qué es una API desde una perspectiva de negocio
 categories: api-management
 tags: [api,api-economy,]
 image:
-  feature: covers/api.png
+  path: /images/covers/api.png
+  thumbnail: /images/covers/api.png
 comments: true
 share: true
 author: victor_cuervo

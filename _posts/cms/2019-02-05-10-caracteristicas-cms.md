@@ -5,9 +5,9 @@ excerpt: "Artículo que analiza cuales son las 10 características de un CMS má
 categories: cms
 tags: [plantillas,seo,multi-idioma,multi-sitio,seguridad]
 image:
-  feature: covers/cms.png
-  credit: mightymightymatze
-  creditlink: https://www.flickr.com/photos/mightymightymatze/
+  path: /images/covers/cms.png
+  thumbnail: /images/covers/cms.png
+  caption: Fotografía de [mightymightymatze](https://www.flickr.com/photos/mightymightymatze/)
 comments: true
 share: true
 author: victor_cuervo

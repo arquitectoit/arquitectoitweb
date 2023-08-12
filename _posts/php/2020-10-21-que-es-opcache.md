@@ -5,9 +5,9 @@ excerpt: "Si queremos instalar Drupal en otros idiomas que no sea el inglés deb
 categories: php
 tags: [opcache, modulos php]
 image:
-  feature: covers/almacen.jpg
-  credit: Nana Smirnova
-  creditlink: https://unsplash.com/@nananadolgo
+  path: /images/covers/almacen.jpg
+  thumbnail: /images/covers/almacen.jpg
+  caption: Fotografía de [Nana Smirnova](https://unsplash.com/@nananadolgo)
 comments: true
 share: true
 author: victor_cuervo

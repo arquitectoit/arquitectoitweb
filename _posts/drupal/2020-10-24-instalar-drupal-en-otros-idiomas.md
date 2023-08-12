@@ -5,9 +5,9 @@ excerpt: "Si queremos instalar Drupal en otros idiomas que no sea el inglés deb
 categories: drupal
 tags: [drupal, idiomas, chmod]
 image:
-  feature: covers/gota.jpg
-  credit: Mayank Dhanawade
-  creditlink: https://unsplash.com/@mayank_dhanawade
+  path: /images/covers/gota.jpg
+  thumbnail: /images/covers/gota.jpg
+  caption: Fotografía de [Mayank Dhanawade](https://unsplash.com/@mayank_dhanawade)
 comments: true
 share: true
 author: victor_cuervo

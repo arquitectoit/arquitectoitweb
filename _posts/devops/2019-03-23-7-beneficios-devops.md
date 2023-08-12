@@ -5,9 +5,9 @@ excerpt: "En este artículo se recogen los 7 Beneficios del DevOps más relevate
 categories: devops
 tags: [ci,cd,cloud,seguridad,mvp,deuda técnica,calidad]
 image:
-  feature: covers/money.jpg
-  credit: KMR Photography
-  creditlink: https://www.flickr.com/photos/morbokat/
+  path: /images/covers/money.jpg
+  thumbnail: /images/covers/money.jpg
+  caption: Fotografía de [KMR Photography](https://www.flickr.com/photos/morbokat/)
 comments: true
 share: true
 author: victor_cuervo

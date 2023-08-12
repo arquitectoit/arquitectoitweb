@@ -5,7 +5,8 @@ excerpt: "El planteamiento del Diseño Responsable se basa en tener en cuenta el
 categories: front
 tags: [responsive design, media queries, accesibilidad]
 image:
-  feature: covers/responsive.png
+  path: /images/covers/responsive.png
+  thumbnail: /images/covers/responsive.png
 comments: true
 share: true
 author: juan_manuel_garcia

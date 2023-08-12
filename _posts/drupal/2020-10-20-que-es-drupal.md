@@ -5,9 +5,9 @@ excerpt: "Artículo que nos cuenta qué es Drupal, que características tiene, l
 categories: drupal
 tags: [cms, gestor contenidos,rest,seo,taxonomias]
 image:
-  feature: covers/gota.jpg
-  credit: Mayank Dhanawade
-  creditlink: https://unsplash.com/@mayank_dhanawade
+  path: /images/covers/gota.jpg
+  thumbnail: /images/covers/gota.jpg
+  caption: Fotografía de [Mayank Dhanawade](https://unsplash.com/@mayank_dhanawade)
 comments: true
 share: true
 author: victor_cuervo

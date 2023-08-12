@@ -5,7 +5,8 @@ excerpt: "Introducción a OpenID Connect, ventajas y casos de uso de este protoc
 categories: api-management
 tags: [OIDC,OpenID,OAuth2]
 image:
-  feature: covers/online-identity.png
+  path: /images/covers/online-identity.png
+  thumbnail: /images/covers/online-identity.png
 comments: true
 share: true
 author: joaquin_copete

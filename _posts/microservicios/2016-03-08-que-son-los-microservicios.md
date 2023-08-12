@@ -5,7 +5,8 @@ excerpt: "Una de las tendencias en Arquitectura de Software de las que más se v
 categories: microservicios
 tags: [soa,restfull,microservicios]
 image:
-  feature: covers/microservicios.png
+  path: /images/covers/microservicios.png
+  thumbnail: /images/covers/microservicios.png
 comments: true
 share: true
 author: victor_cuervo

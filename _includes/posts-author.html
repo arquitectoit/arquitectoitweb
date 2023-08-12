@@ -1,0 +1,4 @@
+{% assign posts_usuario = site.posts|where_exp:"item","item.author == include.author" %}
+{%- for entry in posts_usuario -%}
+  {% include entry.html %}
+{%- endfor -%}

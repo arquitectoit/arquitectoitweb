@@ -5,7 +5,8 @@ excerpt: "DevOps es una metodología de desarrollo de software la cual acerca el
 categories: devops
 tags: [desarrollo,operacion,metodología,despliegue continuo,entrega continua,integración continua]
 image:
-  feature: covers/devops.png
+  path: /images/covers/devops.png
+  thumbnail: /images/covers/devops.png
 comments: true
 share: true
 author: victor_cuervo

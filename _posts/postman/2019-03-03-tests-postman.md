@@ -5,9 +5,9 @@ excerpt: "Cómo utilizar la herramienta Postman para poder definir y compartir l
 categories: postman
 tags: [tests,node.js]
 image:
-  feature: covers/postman.png
-  credit: Marius Christensen
-  creditlink: https://unsplash.com/photos/UXfi8LyqGDk
+  path: /images/covers/postman.png
+  thumbnail: /images/covers/postman.png
+  caption: Fotografía de [Marius Christensen](https://unsplash.com/photos/UXfi8LyqGDk)  
 comments: true
 share: true
 author: victor_cuervo

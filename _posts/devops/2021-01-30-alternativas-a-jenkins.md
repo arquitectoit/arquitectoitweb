@@ -5,7 +5,8 @@ excerpt: "¿Existen Alternativas a Jenkins? O es la única herramienta con la qu
 categories: devops
 tags: [despliegue continuo,entrega continua,integración continua, jenkins, pipeline as code, pipeline]
 image:
-  feature: covers/jenkins-head-logo.jpg
+  path: /images/covers/jenkins-head-logo.jpg
+  thumbnail:  /images/covers/jenkins-head-logo.jpg
 comments: true
 share: true
 author: gustavo_puig

@@ -5,7 +5,8 @@ excerpt: "Un refactoring consiste en modificar un código fuente de un programa 
 categories: java
 tags: [eclipse]
 image:
-  feature: covers/eclipse.jpg
+  path: /images/covers/eclipse.jpg
+  thumbnail: /images/covers/eclipse.jpg 
 comments: true
 share: true
 author: victor_cuervo

@@ -107,8 +107,8 @@ excerpt: ${excerpt}
 categories: ${cat}
 tags: ${t}
 image:
-  feature: ${image}
-  credit: ${imageAutor}
+  path: /images/${image}
+  caption: ${imageAutor}
   creditlink: ${imageLink}
 comments: true
 share: true

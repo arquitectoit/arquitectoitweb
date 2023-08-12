@@ -5,9 +5,9 @@ excerpt: "Qué es un CMS o Gestor de Contenidos y cómo puede ayudarnos en la co
 categories: cms
 tags: [contenido,blogs,foros,wikis,e-commerce,e-learning,portales]
 image:
-  feature: covers/cms.png
-  credit: mightymightymatze
-  creditlink: https://www.flickr.com/photos/mightymightymatze/
+  path: /images/covers/cms.png
+  thumbnail: /images/covers/cms.png
+  caption: Fotografía de [mightymightymatze](https://www.flickr.com/photos/mightymightymatze/)
 comments: true
 share: true
 author: victor_cuervo

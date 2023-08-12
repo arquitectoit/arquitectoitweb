@@ -5,7 +5,8 @@ excerpt: "Uso del framework Popcorn para poder crear diseños multimedia basados
 categories: front
 tags: [multimedia]
 image:
-  feature: covers/multimedia.png
+  path: /images/covers/multimedia.png
+  thumbnail: /images/covers/multimedia.png
 comments: true
 share: true
 author: victor_cuervo

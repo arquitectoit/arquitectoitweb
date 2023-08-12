@@ -5,9 +5,9 @@ excerpt: "Para saber qué es Jakarta EE tenemos que conocer un poco la historia 
 categories: java
 tags: [java ee,jakarta ee,java se,java me]
 image:
-  feature: covers/velero.png
-  credit: Vidar Nordli-Mathisen
-  creditlink: https://unsplash.com/@vidarnm
+  path: /images/covers/velero.png
+  thumbnail: /images/covers/velero.png
+  caption: Fotografía de [Vidar Nordli-Mathisen](https://unsplash.com/@vidarnm)
 comments: true
 share: true
 author: victor_cuervo

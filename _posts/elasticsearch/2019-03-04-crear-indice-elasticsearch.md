@@ -5,15 +5,16 @@ excerpt: "Pasos que tenemos que dar para poder crear un índice en Elasticsearch
 categories: elasticsearch
 tags: [indice,json,sharding]
 image:
-  feature: covers/search.png
-  credit: João Silas
-  creditlink: https://unsplash.com/photos/UGQoo2nznz8
+  path: /images/covers/search.png
+  thumbnail: /images/covers/search.png
+  caption: Fotografía de [João Silas](https://unsplash.com/photos/UGQoo2nznz8)
 comments: true
 share: true
 author: victor_cuervo
 ---
 
-Cómo bien hemos visto en [los conceptos básicos de Elasticsearch][ConceptosElasticSearch] los documentos **JSON** que maneja [Elasticsearch][Elasticsearch] se guardan en un **índice**. Es por ello que lo primero que haremos será **crear un índice en [Elasticsearch][Elasticsearch]**.
+Cómo bien hemos visto en [los conceptos básicos de Elasticsearch][ConceptosElasticSearch] los documentos **JSON** que maneja [Elasticsearch][Elasticsearch] se guardan en un **índice**. Es por 
+ello que lo primero que haremos será **crear un índice en [Elasticsearch][Elasticsearch]**.
 
 Lo primero que tenemos que *saber es la URL en la que se encuentra desplegado nuestro servidor de [Elasticsearch][Elasticsearch]*. En el caso de que el servidor esté en local la URL será:
 

@@ -5,7 +5,8 @@ excerpt: "Características principales que definen a un modelo de Cloud Computin
 categories: cloud
 tags: [cloud computing, QoS, elasticidad, pago por uso]
 image:
-  feature: covers/cloudcomputing.png
+  path: /images/covers/cloudcomputing.png
+  thumbnail: /images/covers/cloudcomputing.png
 comments: true
 share: true
 author: victor_cuervo

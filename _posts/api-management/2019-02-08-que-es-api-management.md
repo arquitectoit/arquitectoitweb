@@ -5,7 +5,8 @@ excerpt: "Enfoque sobre el paradigma del API Management que nos ayuda a definir 
 categories: api-management
 tags: [api-management,soa,seguridad,analítica,OAuth,OpenID,API Portal]
 image:
-  feature: covers/api.png
+  path: /images/covers/api.png
+  thumbnail: /images/covers/api.png
 comments: true
 share: true
 author: victor_cuervo

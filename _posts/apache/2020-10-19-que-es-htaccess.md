@@ -6,9 +6,9 @@ categories: apache
 tags: [servidor web,htaccess,bloqueo ip,redirección]
 image:
 image:
-  feature: covers/pluma.jpg
-  credit: Alexander Sinn
-  creditlink: https://unsplash.com/@swimstaralex
+  path: /images/covers/pluma.jpg
+  thumbnail: /images/covers/pluma.jpg
+  caption: Fotografía de [Alexander Sinn](https://unsplash.com/@swimstaralex)
 comments: true
 share: true
 author: victor_cuervo

@@ -5,7 +5,8 @@ excerpt: "El planteamiento del Diseño Responsable se basa en tener en cuenta el
 categories: front
 tags: [html5]
 image:
-  feature: covers/html5-canvas.png
+  path: /images/covers/html5-canvas.png
+  thumbnail: /images/covers/html5-canvas.png
 comments: true
 share: true
 author: victor_cuervo

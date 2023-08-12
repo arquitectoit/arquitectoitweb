@@ -5,7 +5,8 @@ excerpt: "Ejemplo de una página que va a adaptar su presentación de acuerdo al
 categories: front
 tags: [responsive design, media queries, accesibilidad]
 image:
-  feature: covers/responsive.png
+  path: /images/covers/responsive.png
+  thumbnail: /images/covers/responsive.png
 comments: true
 share: true
 author: juan_manuel_garcia

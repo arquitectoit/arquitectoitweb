@@ -5,9 +5,9 @@ excerpt: "¿Son lo mismo un contenedor y una máquina virtual? Veamos las difere
 categories: docker
 tags: [contenedor,máquina virtual, hipervisor]
 image:
-  feature: covers/container.png
-  credit: Guillaume Bolduc
-  creditlink: https://unsplash.com/photos/uBe2mknURG4
+  path: /images/covers/container.png
+  thumbnail: /images/covers/container.png
+  caption: Fotografía de [Guillaume Bolduc](https://unsplash.com/photos/uBe2mknURG4)
 comments: true
 share: true
 author: victor_cuervo

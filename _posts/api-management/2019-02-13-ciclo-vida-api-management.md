@@ -5,7 +5,8 @@ excerpt: "Análisis de las diferentes fases por las que pasa el ciclo de vida de
 categories: api-management
 tags: [diseño,swagger,graphql,postman,sandbox,testing,monitorización]
 image:
-  feature: covers/api.png
+  path: /images/covers/api.png
+  thumbnail: /images/covers/api.png
 comments: true
 share: true
 author: victor_cuervo

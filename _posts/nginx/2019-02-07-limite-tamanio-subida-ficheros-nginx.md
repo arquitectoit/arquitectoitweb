@@ -5,7 +5,8 @@ excerpt: "El límite por defecto de subida de ficheros en Nginx es de 1Mb, veamo
 categories: nginx
 tags: [nginx,servidores,configuracion,ficheros]
 image:
-  feature: covers/databases.png
+    path: /images/covers/databases.png
+    thumbnail: /images/covers/databases.png
 comments: true
 share: true
 author: victor_cuervo

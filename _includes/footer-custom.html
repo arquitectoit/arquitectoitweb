@@ -1,0 +1,11 @@
+<!-- start custom footer snippets -->
+
+<div class="footerinfo">
+	<ul>
+{% for link in site.data.footer-navigation %}
+	<li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
+{% endfor %}
+	</ul>
+</div>
+
+<!-- end custom footer snippets -->

@@ -5,9 +5,9 @@ excerpt: "El inquietante mundo del DevOps visto por un Arquitecto IT"
 categories: editorial
 tags: [qa,transformación digital,devops]
 image:
-  feature: covers/qa.png
-  credit: Tnarik
-  creditlink: https://www.flickr.com/photos/tnarik/
+  path: /images/covers/qa.png
+  thumbnail: /images/covers/qa.png
+  caption: Fotografía de [Tnarik](https://www.flickr.com/photos/tnarik/)
 comments: true
 share: true
 author: victor_cuervo

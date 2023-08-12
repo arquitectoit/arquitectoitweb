@@ -5,9 +5,9 @@ excerpt: "Análisis de los elementos que conforman la Arquitectura Docker: clien
 categories: docker
 tags: [arquitectura,api,docker engine,docker registry]
 image:
-  feature: covers/docker.png
-  credit: Thomas Kelley
-  creditlink: https://unsplash.com/photos/t20pc32VbrU
+  path: /images/covers/docker.png
+  thumbnail: /images/covers/docker.png
+  caption: Fotografía de [Thomas Kelley](https://unsplash.com/photos/t20pc32VbrU)
 comments: true
 share: true
 author: victor_cuervo
