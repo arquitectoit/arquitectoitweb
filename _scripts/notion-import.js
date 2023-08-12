@@ -108,8 +108,8 @@ categories: ${cat}
 tags: ${t}
 image:
   path: /images/${image}
-  caption: ${imageAutor}
-  creditlink: ${imageLink}
+  thumbnail: /images/${image}
+  caption: Fotografía de [${imageAutor}](${imageLink})
 comments: true
 share: true
 author: victor_cuervo
