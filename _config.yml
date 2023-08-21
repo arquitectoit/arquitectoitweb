@@ -20,7 +20,7 @@ locale: es-ES
 title: "Arquitecto IT"
 description: "Análisis de Tecnologías"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: https://www.arquitectoit.com
+url: https://arquitectoit.com
 logo: /images/site-logo.png
 date_format: "%-d %B %Y"
 read_time: true
