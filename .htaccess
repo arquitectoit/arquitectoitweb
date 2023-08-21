@@ -12,3 +12,7 @@ ErrorDocument 404 /404.html
 
 RewriteEngine On
 ErrorDocument 404 /404.html
+
+# Quitar el www del nombre de dominio  
+RewriteCond %{HTTP_HOST} ^www\.arquitectoit\.com$ [NC]  
+RewriteRule ^(.*)$ https://arquitectoit.com/$1 [R=301,QSA,L]
