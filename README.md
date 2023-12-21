@@ -1,4 +1,4 @@
 # Arquitecto IT
-Repositorio de la web [Arquitecto IT][AiT] desarrollada mediante *Jekyll* y *So Simple Theme*.
+Repositorio de la web [Ayuda en la Web][AYW] desarrollada mediante *Jekyll* y *So Simple Theme*.
 
-[AiT]: https://www.arquitectoit.com
+[AYW]: https://www.ayudaenlaweb.com
