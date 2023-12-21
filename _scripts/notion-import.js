@@ -124,7 +124,7 @@ author: victor_cuervo
 
 		//writing to file
 		const ftitle = `${date}-${slug}.md`
-		fs.writeFile(path.join(root, ftitle), fm + md, (err) => {
+		fs.writeFile(path.join(root, ftitle), fm + md.parent, (err) => {
 			if (err) {
 				console.log(err);
 			}
