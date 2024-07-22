@@ -1,6 +1,6 @@
 ---
 layout: category
-taxonomy: eda
+taxonomy: EDA
 entries_layout: grid
 title: EDA
 excerpt: "Artículos que nos explican como utilizar una arquitectura basada en eventos (EDA) para poder conectar los servicios de forma asíncrona."
