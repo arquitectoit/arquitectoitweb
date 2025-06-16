@@ -16,8 +16,7 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 async function resolveSyncedBlocks(mdblocks) {
 	const resolved = [];
   
-	for (const block of mdblocks) {
-		console.log("Resolving block:", block);
+	for (const block of mdblocks) {		
 	  // Detectar si es un synced_block sin contenido
 	  if (
 		block.type === "synced_block" &&
@@ -26,6 +25,7 @@ async function resolveSyncedBlocks(mdblocks) {
 		const originalId = block.block.synced_block.synced_from.block_id;
   
 		// Convertir el contenido original del bloque referenciado
+		console.log("Resolviendo synced_block:", originalId);
 		const originalMdBlocks = await n2m.pageToMarkdown(originalId);
 		console.log("sync",originalMdBlocks);
   
