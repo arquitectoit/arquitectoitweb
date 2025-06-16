@@ -17,7 +17,7 @@ async function resolveSyncedBlocks(mdblocks) {
 	const resolved = [];
   
 	for (const block of mdblocks) {
-		console.log("Resolving block:", block.id);
+		console.log("Resolving block:", block);
 	  // Detectar si es un synced_block sin contenido
 	  if (
 		block.type === "synced_block" &&
