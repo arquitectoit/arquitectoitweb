@@ -3,6 +3,7 @@ const { NotionToMarkdown } = require("notion-to-md");
 const moment = require('moment');
 const path = require('path');
 const fs = require('fs');
+
 // or
 // import {NotionToMarkdown} from "notion-to-md";
 
@@ -13,38 +14,30 @@ const notion = new Client({
 // passing notion client to the option
 const n2m = new NotionToMarkdown({ notionClient: notion });
 
-async function resolveSyncedBlocks(mdblocks) {
-	const resolved = [];
-  
-	for (const block of mdblocks) {		
-	  // Detectar si es un synced_block sin contenido
-	  if (block.type === "synced_block") {
-		
-		const sourceBlockId = block.blockId;  
-		// Convertir el contenido original del bloque referenciado		
-		const originalMdBlocks = await n2m.pageToMarkdown(sourceBlockId);	
-  
-		resolved.push(...originalMdBlocks);
-	  } else {
-		resolved.push(block);
-	  }
-	}
-  
-	return resolved;
-  }
-
 (async () => {
 
 
 	const databaseId = process.env.DATABASE_ID;
 	// TODO has_more
+	const hoy = moment().format("YYYY-MM-DD")
 	const response = await notion.databases.query({
 		database_id: databaseId,
 		filter: {
-			property: "Status",
-			status: {
-				equals: "Published"
-			}
+			"and": [
+				{
+					"property": "Estado",
+					"status": {
+						"equals": "Published"
+					}
+				},
+				{
+					"property": "Last Date",
+					"date": {
+						"on_or_before": hoy
+					}
+
+				}
+			]			
 		}
 	})
 	for (const r of response.results) {
@@ -59,6 +52,12 @@ async function resolveSyncedBlocks(mdblocks) {
 			date = moment(pdate).format('YYYY-MM-DD')
         }
         
+		// date
+		let lastdate = moment(r.created_time).format("YYYY-MM-DD")
+		let plastdate = r.properties?.['Last Date']?.['date']?.['start']
+		if (plastdate) {
+			lastdate = moment(plastdate).format('YYYY-MM-DD')
+		}
         
 		// title
 		let title = id
@@ -90,6 +89,8 @@ async function resolveSyncedBlocks(mdblocks) {
        let cat = ''
        let pcats = r.properties?.['Category']?.['multi_select']
        cat = pcats[0]?.['name']
+	   // Quitamos espacios en blanco
+	   cat = cat.replace(" ","-");
 
        let nav = cat.toLowerCase();
 
@@ -120,12 +121,13 @@ async function resolveSyncedBlocks(mdblocks) {
 		}		
 
         
-const fm = `---
+let fm = `---
 layout: post
 title: ${title}
-excerpt: "${excerpt}"
+excerpt: ${excerpt}
 categories: ${cat}
 tags: ${t}
+last_modified_at: ${lastdate}
 image:
   path: /images/${image}
   thumbnail: /images/${image}
@@ -135,13 +137,10 @@ share: true
 author: victor_cuervo
 ---
 `
-
 		const mdblocks = await n2m.pageToMarkdown(id);
-		// const md = n2m.toMarkdownString(mdblocks);
-		const fullMdBlocks = await resolveSyncedBlocks(mdblocks);
-  		const md = n2m.toMarkdownString(fullMdBlocks);
+        const md = n2m.toMarkdownString(mdblocks);
 
-		console.log(md);
+		console.log(md)
 
         // ensure directory exists
 	    const root = path.join('_posts', nav)
@@ -154,6 +153,5 @@ author: victor_cuervo
 				console.log(err);
 			}
 		});
-	
 	}
 })();
