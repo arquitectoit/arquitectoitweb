@@ -20,17 +20,7 @@ async function resolveSyncedBlocks(mdblocks) {
 	  // Detectar si es un synced_block sin contenido
 	  if (block.type === "synced_block") {
 		
-		const syncedFrom = block.block.synced_block.synced_from;
-      	let sourceBlockId = null;
-
-      	if (syncedFrom?.block_id) {
-	        // Es una copia sincronizada: seguir el ID fuente
-        	sourceBlockId = syncedFrom.block_id;
-      	} else {
-        	// Es el bloque original: usar su propio ID
-        	sourceBlockId = block.block.id;
-      	}
-  
+		const sourceBlockId = block.block.synced_block.synced_from.block_id;  
 		// Convertir el contenido original del bloque referenciado		
 		const originalMdBlocks = await n2m.pageToMarkdown(sourceBlockId);	
   
