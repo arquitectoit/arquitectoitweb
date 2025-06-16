@@ -23,8 +23,24 @@ async function resolveSyncedBlocks(mdblocks) {
 		console.log(block);
 		console.log(`Resolviendo synced_block: ${block.blockId}`);
 		console.log(typeof block.blockId);
+
+
 		const fullBlock = await notion.blocks.retrieve({ block_id: block.blockId });				
-		const originalMdBlocks = await n2m.pageToMarkdown(fullBlock);	
+		
+		// Si el bloque tiene referencia a otro (es una copia sincronizada)
+		let realBlockId = fullBlock.id;
+
+		if (
+			fullBlock.type === "synced_block" &&
+			fullBlock.synced_block?.synced_from?.block_id
+		) {
+			realBlockId = fullBlock.synced_block.synced_from.block_id;
+		}
+
+		// Ahora sí: pasar el ID como string
+		const originalMdBlocks = await n2m.pageToMarkdown(realBlockId);
+
+
 		console.log(`Contenido del synced_block: ${originalMdBlocks}`);
 
 		resolved.push(...originalMdBlocks);
