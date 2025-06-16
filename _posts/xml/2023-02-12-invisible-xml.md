@@ -5,9 +5,9 @@ excerpt: 74a3751f-29d3-48b1-a5ed-380ccae8fb40
 categories: xml
 tags: [xml,ixml,w3c,w3c community]
 image:
-	path: /images/covers/invisible.png
-	thumbnail: /images/covers/invisible.png
-	caption: Fotografía de [Michael Dziedzic](https://unsplash.com/es/@lazycreekimages)
+  path: /images/covers/invisible.png
+  thumbnail: /images/covers/invisible.png
+  caption: Fotografía de [Michael Dziedzic](https://unsplash.com/es/@lazycreekimages)
 comments: true
 share: true
 author: victor_cuervo
