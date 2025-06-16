@@ -18,16 +18,21 @@ async function resolveSyncedBlocks(mdblocks) {
   
 	for (const block of mdblocks) {		
 	  // Detectar si es un synced_block sin contenido
-	  if (
-		block.type === "synced_block" &&
-		block.block?.synced_block?.synced_from?.block_id
-	  ) {
-		const originalId = block.block.synced_block.synced_from.block_id;
+	  if (block.type === "synced_block") {
+		
+		const syncedFrom = block.block.synced_block.synced_from;
+      	let sourceBlockId = null;
+
+      	if (syncedFrom?.block_id) {
+	        // Es una copia sincronizada: seguir el ID fuente
+        	sourceBlockId = syncedFrom.block_id;
+      	} else {
+        	// Es el bloque original: usar su propio ID
+        	sourceBlockId = block.block.id;
+      	}
   
-		// Convertir el contenido original del bloque referenciado
-		console.log("Resolviendo synced_block:", originalId);
-		const originalMdBlocks = await n2m.pageToMarkdown(originalId);
-		console.log("sync",originalMdBlocks);
+		// Convertir el contenido original del bloque referenciado		
+		const originalMdBlocks = await n2m.pageToMarkdown(sourceBlockId);	
   
 		resolved.push(...originalMdBlocks);
 	  } else {
