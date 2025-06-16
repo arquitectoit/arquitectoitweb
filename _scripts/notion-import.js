@@ -19,8 +19,7 @@ async function resolveSyncedBlocks(mdblocks) {
 	for (const block of mdblocks) {		
 	  // Detectar si es un synced_block sin contenido
 	  if (block.type === "synced_block") {
-		
-		console.log(`Resolviendo synced_block: ${block.synced_block.synced_from}`);
+				
 		console.log(block)
 		console.log(`Resolviendo synced_block: ${sourceBlockId}`);
 		// Convertir el contenido original del bloque referenciado		
