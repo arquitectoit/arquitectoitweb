@@ -21,7 +21,7 @@ async function resolveSyncedBlocks(mdblocks) {
 	  if (block.type === "synced_block") {
 						
 		const sourceBlockId = block.blockId;
-		const fullBlock = await notion.blocks.retrieve({ block_id: sourceBlockIdblockId });
+		const fullBlock = await notion.blocks.retrieve({ block_id: sourceBlockId });
 		// Convertir el contenido original del bloque referenciado		
 		const originalMdBlocks = await n2m.pageToMarkdown(fullBlock);	
 		console.log(`Contenido del synced_block: ${originalMdBlocks}`);
