@@ -21,6 +21,8 @@ async function resolveSyncedBlocks(mdblocks) {
 	  if (block.type === "synced_block") {
 						
 		console.log(block);
+		console.log(`Resolviendo synced_block: ${block.blockId}`);
+		console.log(typeof block.blockId);
 		const fullBlock = await notion.blocks.retrieve({ block_id: block.blockId });				
 		const originalMdBlocks = await n2m.pageToMarkdown(fullBlock);	
 		console.log(`Contenido del synced_block: ${originalMdBlocks}`);
