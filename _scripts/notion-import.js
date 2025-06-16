@@ -17,6 +17,7 @@ async function resolveSyncedBlocks(mdblocks) {
 	const resolved = [];
   
 	for (const block of mdblocks) {
+		console.log("Resolving block:", block.id);
 	  // Detectar si es un synced_block sin contenido
 	  if (
 		block.type === "synced_block" &&
@@ -26,6 +27,7 @@ async function resolveSyncedBlocks(mdblocks) {
   
 		// Convertir el contenido original del bloque referenciado
 		const originalMdBlocks = await n2m.pageToMarkdown(originalId);
+		console.log(originalMdBlocks);
   
 		resolved.push(...originalMdBlocks);
 	  } else {
