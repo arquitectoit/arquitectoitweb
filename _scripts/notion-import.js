@@ -27,7 +27,7 @@ async function resolveSyncedBlocks(mdblocks) {
   
 		// Convertir el contenido original del bloque referenciado
 		const originalMdBlocks = await n2m.pageToMarkdown(originalId);
-		console.log(originalMdBlocks);
+		console.log("sync",originalMdBlocks);
   
 		resolved.push(...originalMdBlocks);
 	  } else {
