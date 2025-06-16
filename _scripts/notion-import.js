@@ -13,6 +13,29 @@ const notion = new Client({
 // passing notion client to the option
 const n2m = new NotionToMarkdown({ notionClient: notion });
 
+async function resolveSyncedBlocks(mdblocks) {
+	const resolved = [];
+  
+	for (const block of mdblocks) {
+	  // Detectar si es un synced_block sin contenido
+	  if (
+		block.type === "synced_block" &&
+		block.block?.synced_block?.synced_from?.block_id
+	  ) {
+		const originalId = block.block.synced_block.synced_from.block_id;
+  
+		// Convertir el contenido original del bloque referenciado
+		const originalMdBlocks = await n2m.pageToMarkdown(originalId);
+  
+		resolved.push(...originalMdBlocks);
+	  } else {
+		resolved.push(block);
+	  }
+	}
+  
+	return resolved;
+  }
+
 (async () => {
 
 
@@ -117,7 +140,9 @@ author: victor_cuervo
 `
 
 		const mdblocks = await n2m.pageToMarkdown(id);
-		const md = n2m.toMarkdownString(mdblocks);
+		// const md = n2m.toMarkdownString(mdblocks);
+		const fullMdBlocks = await resolveSyncedBlocks(mdblocks);
+  		const md = n2m.toMarkdownString(fullMdBlocks);
 
 		console.log(md);
 
