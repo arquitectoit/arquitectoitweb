@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ¿Qué es Cloud Computing?
-excerpt: 214a9dfb-adca-8044-a5e1-e791eff7a069
+excerpt: Artículo que nos define conceptualmente qué es el cloud computing y cuales son sus modelos de servicio: IaaS, PaaS y SaaS.
 categories: cloud
 tags: [cloud computing,saas,paas,iaas]
 image:
