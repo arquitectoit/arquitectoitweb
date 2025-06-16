@@ -57,6 +57,3 @@ En este nuevo escenario de gestión de activos como servicios y agilidad facilit
 
 De igual manera las empresas tradicionales ven un impacto en su modelo de gestión tanto presupuestario como de activos, ya que se pasa de modelos tradicionales de inversión en equipos y CPDs a un modelo de gestión de la tecnología de una empresa en un modelo por servicios. Lo que hace que en lo referente al modelo presupuestario se cambie de un modelo CAPEX a un modelo OPEX.
 
-
-test
-
