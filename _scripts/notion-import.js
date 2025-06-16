@@ -13,17 +13,13 @@ const notion = new Client({
 // passing notion client to the option
 const n2m = new NotionToMarkdown({ notionClient: notion });
 
+// Extraemos bloques que estén sincronizados
 async function resolveSyncedBlocks(mdblocks) {
 	const resolved = [];
   
 	for (const block of mdblocks) {		
-	  // Detectar si es un synced_block sin contenido
+	  // Detectar si es un synced_block 
 	  if (block.type === "synced_block") {
-						
-		console.log(block);
-		console.log(`Resolviendo synced_block: ${block.blockId}`);
-		console.log(typeof block.blockId);
-
 
 		const fullBlock = await notion.blocks.retrieve({ block_id: block.blockId });				
 		
@@ -40,9 +36,6 @@ async function resolveSyncedBlocks(mdblocks) {
 		// Ahora sí: pasar el ID como string
 		const originalMdBlocks = await n2m.pageToMarkdown(realBlockId);
 
-
-		console.log(`Contenido del synced_block: ${originalMdBlocks}`);
-
 		resolved.push(...originalMdBlocks);
 	  } else {
 		resolved.push(block);
@@ -53,7 +46,6 @@ async function resolveSyncedBlocks(mdblocks) {
   }
 
 (async () => {
-
 
 	const databaseId = process.env.DATABASE_ID;
 	// TODO has_more
