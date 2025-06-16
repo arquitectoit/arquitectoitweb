@@ -103,7 +103,7 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 const fm = `---
 layout: post
 title: ${title}
-excerpt: ${excerpt}
+excerpt: "${excerpt}"
 categories: ${cat}
 tags: ${t}
 image:
