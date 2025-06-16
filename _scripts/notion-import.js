@@ -62,7 +62,6 @@ async function resolveSyncedBlocks(mdblocks) {
 		console.log(r)
 		const id = r.id
 
-
 		// date
 		let date = moment(r.created_time).format("YYYY-MM-DD")
 		let pdate = r.properties?.['Date']?.['date']?.['start']
@@ -72,14 +71,14 @@ async function resolveSyncedBlocks(mdblocks) {
         
         
 		// title
-		let title = id
+		let title = ''
 		let ptitle = r.properties?.['Name']?.['title']
 		if (ptitle?.length > 0) {
 			title = ptitle[0]?.['plain_text']
 		}
 		
 		// excerpt
-		let excerpt = id
+		let excerpt = ''
 		let pexcerpt = r.properties?.['Excerpt']?.['rich_text']
 		if (pexcerpt?.length > 0) {
 			excerpt = pexcerpt.map(text => text?.['plain_text']).join('')
@@ -110,21 +109,21 @@ async function resolveSyncedBlocks(mdblocks) {
 		slug = pslug?.['string']
 
 		// image
-		let image= id
+		let image= ''
 		let pimage = r.properties?.['Image']?.['rich_text']
 		if (pimage?.length > 0) {
 			image = pimage[0]?.['plain_text']
 		}
 
 		// image
-		let imageAutor= id
+		let imageAutor= ''
 		let pimageAutor = r.properties?.['ImageAutor']?.['rich_text']
 		if (pimageAutor?.length > 0) {
 			imageAutor = pimageAutor[0]?.['plain_text']
 		}
 
 		// image
-		let imageLink= id
+		let imageLink= ''
 		let pimageLink = r.properties?.['ImageLink']?.['rich_text']
 		if (pimageLink?.length > 0) {
 			imageLink = pimageLink[0]?.['plain_text']
@@ -138,10 +137,10 @@ excerpt: "${excerpt}"
 categories: ${cat}
 tags: ${t}
 image:
-	path: /images/${image}
-	thumbnail: /images/${image}`
-	+ (imageAutor ? `
-	caption: Fotografía de [${imageAutor}](${imageLink})` : '') + `
+  path: /images/${image}
+  thumbnail: /images/${image}`
+  + (imageAutor ? `
+  caption: Fotografía de [${imageAutor}](${imageLink})` : '') + `
 comments: true
 share: true
 author: victor_cuervo
