@@ -20,7 +20,7 @@ async function resolveSyncedBlocks(mdblocks) {
 	  // Detectar si es un synced_block sin contenido
 	  if (block.type === "synced_block") {
 						
-		console.log(`Resolviendo synced_block: ${block}`);
+		console.log(block);
 		const fullBlock = await notion.blocks.retrieve({ block_id: block.blockId });				
 		const originalMdBlocks = await n2m.pageToMarkdown(fullBlock);	
 		console.log(`Contenido del synced_block: ${originalMdBlocks}`);
