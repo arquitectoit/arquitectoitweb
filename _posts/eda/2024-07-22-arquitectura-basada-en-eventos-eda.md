@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Arquitectura Basada en Eventos (EDA)
-excerpt: Una Arquitectura Basada en Eventos (EDA) es un patrón de diseño de software en el cual se diseñan servicios desacoplados que se relacionan mediante la publicación, consumo y enrutado de eventos.
+excerpt: "Una Arquitectura Basada en Eventos (EDA) es un patrón de diseño de software en el cual se diseñan servicios desacoplados que se relacionan mediante la publicación, consumo y enrutado de eventos."
 categories: EDA
 tags: [eda,evento,message broker,event broker,apache kafka,ibmmq,rabbitmq,tibco,pubsub+,solace,confluent]
 image:
