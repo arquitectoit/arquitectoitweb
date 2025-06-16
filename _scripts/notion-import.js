@@ -138,9 +138,10 @@ excerpt: "${excerpt}"
 categories: ${cat}
 tags: ${t}
 image:
-  path: /images/${image}
-  thumbnail: /images/${image}
-  caption: Fotografía de [${imageAutor}](${imageLink})
+	path: /images/${image}
+	thumbnail: /images/${image}`
+	+ (imageAutor ? `
+	caption: Fotografía de [${imageAutor}](${imageLink})` : '') + `
 comments: true
 share: true
 author: victor_cuervo
