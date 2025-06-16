@@ -5,9 +5,9 @@ excerpt: 28f1d7ee-8663-47b5-98fc-5703c6c85968
 categories: EDA
 tags: [eda,evento,message broker,event broker,apache kafka,ibmmq,rabbitmq,tibco,pubsub+,solace,confluent]
 image:
-  path: /images/covers/eventos.webp
-  thumbnail: /images/covers/eventos.webp
-  caption: Fotografía de [FreePik](https://www.freepik.es/autor/freepik)
+	path: /images/covers/eventos.webp
+	thumbnail: /images/covers/eventos.webp
+	caption: Fotografía de [FreePik](https://www.freepik.es/autor/freepik)
 comments: true
 share: true
 author: victor_cuervo
